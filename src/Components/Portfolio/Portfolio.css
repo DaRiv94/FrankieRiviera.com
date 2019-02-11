@@ -1,0 +1,56 @@
+
+
+
+/*Boostrap overrides*/
+
+.container-fluid.portfolio-page-main-div{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+
+/*MY styles*/
+.portfolio-page-main-div {
+    background-color: #e5e6e5;
+    padding: 30px;
+    height: auto;
+  }
+  
+.portfolio-app-row{
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+
+  .app-info {
+    padding: 50px;
+  }
+
+  .app-pic:hover{
+    border: 5px solid rgba(194, 194, 194, 0.616);
+  }
+  
+  .app-pic {
+    max-height: 100%;
+    width: 100%;
+    min-width: 200px;
+    max-width: 300px;
+    border-radius: 10px;
+    
+  }
+  
+  /**/
+  @media (max-width: 768px) {
+    .portfolio-page-main-div {
+      background-color: #e5e6e5;
+      padding: 30px;
+      height: auto;
+    }
+  
+    .app-pic {
+        margin-left: 50px;
+        
+      }
+  }

@@ -7,8 +7,8 @@ const Header = () => {
   return (
     <React.Fragment>
       <div className="jumbotron">
-      {/* <img className="fgrlogo" src="https://via.placeholder.com/150"/> */}
-      <img className="fgrlogo" width="150" height="150" alt="couldnt find it" src={fgrPic}/>
+      <a href="/"><img className="fgrlogo" width="150" height="150" alt="couldnt find it" src={fgrPic}/></a>
+      
 
 
         <h1 className="header-title jumbotron">Frankie G. Riviera</h1>
@@ -29,6 +29,14 @@ const Header = () => {
             to="/about"
           >
             About Me
+          </NavLink>
+          {" | "}
+          <NavLink
+            className="btn btn-primary"
+            activeClassName="active"
+            to="/portfolio"
+          >
+            Portfolio
           </NavLink>
         </nav>
         
