@@ -1,6 +1,28 @@
+.about-div {
+  background-color: #e5e6e5;
+  padding: 30px;
+  height: auto;
+}
 
-.about-div{
-    background-color: #E5E6E5;
-    padding:20px;
-    height: 50vh;
+.bio {
+  padding: 30px;
+}
+
+.bio-pic {
+  max-height: 100%;
+  width: 100%;
+  min-width: 200px;
+  max-width: 300px;
+  border-radius: 5px;
+}
+
+/**/
+@media (max-width: 768px) {
+  .about-div {
+    background-color: #e5e6e5;
+    padding: 30px;
+    height: auto;
+  }
+
+  
 }
