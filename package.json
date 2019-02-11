@@ -1,6 +1,7 @@
 {
   "name": "frankie-riviera-dot-com",
   "version": "0.1.0",
+  "description": "This is my react application with for my Online Portfolio",
   "private": true,
   "dependencies": {
     "bootstrap": "^4.2.1",
