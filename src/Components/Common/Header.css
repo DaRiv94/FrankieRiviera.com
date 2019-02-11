@@ -1,0 +1,58 @@
+
+/* Bootstrap Overrides*/
+
+
+
+.jumbotron {
+    padding: 1rem 1rem;
+    background-color: #E5E6E5;
+    color: #4E5058;
+}
+
+
+
+.btn-primary {
+    color: #4E5058;
+    background-color: #E5E6E5;
+    border-color: #E5E6E5;
+  }
+  
+  .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #48B749;
+    border-color: #48B749;
+  }
+  
+  .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: none;
+  }
+
+  .btn-primary:hover {
+    color: #4E5058;
+    background-color: #E5E6E5;
+    border-color: #48B749;
+}
+
+
+
+
+
+
+
+
+
+/**My Styles*/
+.header-title{
+    font-weight: 700;
+}
+
+
+.fgrlogo{
+    float: right;
+}
+
+@media(max-width:768px){
+    .fgrlogo{
+       display: none;
+    }
+}

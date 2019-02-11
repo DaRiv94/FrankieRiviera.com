@@ -1,0 +1,45 @@
+
+/*My styles*/
+
+
+.welcome-div{
+    opacity: .85;
+    margin-top: 25vh;
+    text-align: center;
+    background-color: #E5E6E5;  
+    
+    border-radius: 30px;
+    padding: 50px;
+    min-width: 300px;
+    
+}
+
+/*FOR MOBILE*/
+@media(max-width: 480px) {
+    .welcome-div{
+        opacity: .9;
+        margin-top: 10vh;
+        text-align: center;
+        background-color: #E5E6E5;  
+        border-radius: 0px; 
+        padding: 60px 0px;
+        min-width: 300px;
+        
+        
+    }
+
+    .home.container{
+        padding: 0px;
+    }
+
+  }
+
+
+
+
+
+.welcome-banner{
+    font-weight: 700;
+    font-size: 5vh;
+    color: #48B749;
+}
