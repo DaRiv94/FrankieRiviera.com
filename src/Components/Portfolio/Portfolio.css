@@ -25,7 +25,7 @@
 
 
   .app-info {
-    padding: 50px;
+    padding: 20px;
   }
 
   .app-pic:hover{
@@ -41,7 +41,7 @@
     
   }
   
-  /**/
+  /*for tablets or smaller*/
   @media (max-width: 768px) {
     .portfolio-page-main-div {
       background-color: #e5e6e5;
@@ -53,4 +53,99 @@
         margin-left: 50px;
         
       }
+
+      .app-info {
+        padding: 50px;
+      }
+  }
+
+
+  .technology-used{
+    font-weight:bold;
+  }
+
+
+/*Buttons oneach app page for portfolio page*/
+
+button:focus {
+
+  outline: none
+}
+
+  .portfolio-app-buttons{
+    padding-bottom: 20px;
+
+  }
+
+  .portfolio-app-buttons .description{
+    display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  color:rgba(78, 80, 88, 0.400);
+  border: 2px solid #4E5058;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+
+
+  }
+
+ 
+
+  .portfolio-app-buttons .tech{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    color:rgba(78, 80, 88, 0.400);
+    border: 2px solid #4E5058;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+  }
+
+  .portfolio-app-buttons .description.active{
+    border-right: none;
+  }
+
+  .portfolio-app-buttons .tech.active{
+    border-left: none;
+  }
+
+  .portfolio-app-buttons .active{
+    color:#FFF;
+    background-color: #4E5058;
+
+  }
+
+  .portfolio-app-buttons :not(.active):hover{
+    color:rgba(255, 255, 255, 0.7);
+    background-color: rgba(78, 80, 88, 0.4);
+
+  }
+
+  @media (max-width: 480px) {
+    
+    .portfolio-app-buttons .description{
+      display: block;
+      border-top-right-radius: 0.25rem;
+      border-bottom-left-radius: 0px;
+      width: 140px;
+  
+    }
+  
+    .portfolio-app-buttons .tech{
+      display: block;
+      text-align: center;
+      border-top-right-radius:  0px;
+     
+      border-bottom-left-radius: 0.25rem;
+      width: 140px;
+    }
+
   }

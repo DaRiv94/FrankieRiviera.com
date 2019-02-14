@@ -1,43 +1,52 @@
 import React, { Component } from "react";
 import PortolioApp from "./PortfolioApp";
 import "./Portfolio.css";
-import oldFgrWebsite from '../../images/OldFgrWebsite.JPG'
+
+import inMemoryData from '../Common/inMemoryData';
+
 
 class PortfolioPage extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      gighub: {
-        title: "GigHub",
-        description:
-          "This is a website for live concert lovers to attend, and schedule live concerts, and to follow other artists ",
-        picture: "https://via.placeholder.com/250"
-      },
-      oldfgr: {
-        title: "My Old Website",
-        description:
-          "looking for the old FrankieRiviera.com? Here it is, my former static website, with my old resume, video portfolio, and kensington internship newsletters",
-        picture: oldFgrWebsite,
-        link:"http://frankgriviera.azurewebsites.net/index.html"
-      }
+      gighub:inMemoryData.gighub,
+      oldfgr:inMemoryData.oldfgr,
+      geolocation:inMemoryData.geolocation
     };
   }
+
+ 
+
+
+
+
   render() {
-    const { gighub, oldfgr } = this.state;
+    const { gighub, oldfgr,geolocation } = this.state;
     return (
       <div className="portfolio-page-main-div container-fluid">
+        <PortolioApp
+          title={gighub.title}
+          description={gighub.description}
+          image={gighub.picture}
+          link={gighub.link}
+          technologies={gighub.technologies}
+
+        />
+        <PortolioApp
+          title={geolocation.title}
+          description={geolocation.description}
+          image={geolocation.picture}
+          link={geolocation.link}
+          bgColor="#dbdbdb"
+          technologies={geolocation.technologies}
+        />
         <PortolioApp
           title={oldfgr.title}
           description={oldfgr.description}
           image={oldfgr.picture}
           link={oldfgr.link}
-        />
-        <PortolioApp
-          title={gighub.title}
-          description={gighub.description}
-          image={gighub.picture}
-          bgColor="#dbdbdb"
+          technologies={oldfgr.technologies}
         />
       </div>
     );
