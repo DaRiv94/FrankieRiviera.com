@@ -2,7 +2,7 @@ import React from "react";
 import "./HomePage.css";
 import { Link } from "react-router-dom";
 
-const AboutPage = () => {
+const HomePage = () => {
   return (
     <div className="home container">
       <div className="welcome-div">
@@ -16,4 +16,4 @@ const AboutPage = () => {
   );
 };
 
-export default AboutPage;
+export default HomePage;

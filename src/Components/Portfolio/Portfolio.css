@@ -62,6 +62,7 @@
 
   .technology-used{
     font-weight:bold;
+    
   }
 
 
@@ -148,4 +149,13 @@ button:focus {
       width: 140px;
     }
 
+  }
+
+  .keyFeatures{
+    padding-left: 0;
+    list-style-position: inside;
+  }
+
+  .keyFeatures li{
+    padding: 2px 0px;
   }

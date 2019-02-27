@@ -45,6 +45,8 @@ class PortfolioApp extends Component {
       title,
       description,
       link,
+      features,
+      repo,
       technologies = [{ tech: "HTML", use: "For Static markup" }]
     } = this.props;
 
@@ -54,6 +56,8 @@ class PortfolioApp extends Component {
           title={title}
           description={description}
           link={link}
+          features={features}
+          repo={repo}
         />
       );
     } else {
@@ -61,7 +65,11 @@ class PortfolioApp extends Component {
         <>
           {technologies.map(technology => {
             return (
-              <PortfolioAppTech key={technology.tech} technology={technology} />
+              <PortfolioAppTech
+                className=""
+                key={technology.tech}
+                technology={technology}
+              />
             );
           })}
         </>
