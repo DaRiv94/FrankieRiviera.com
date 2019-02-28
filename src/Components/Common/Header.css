@@ -7,6 +7,7 @@
     padding: 1rem 1rem;
     background-color: #E5E6E5;
     color: #4E5058;
+    min-height: 100px;
 }
 
 
@@ -15,6 +16,8 @@
     color: #4E5058;
     background-color: #E5E6E5;
     border-color: #E5E6E5;
+
+    margin-right: 0px;
   }
   
   .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
@@ -33,19 +36,52 @@
     border-color: #48B749;
 }
 
+/*For when the screen is 575px or wider*/
+@media(min-width:575px){
+  .btn-primary {
+    
+    margin-right: 5px;
+  }
 
-
-
-
-
-
-
-
-/**My Styles*/
-.header-title{
-    font-weight: 700;
 }
 
+.navbar-light .navbar-brand {
+  color: #4E5058;
+}
+
+ .navbar-light .navbar-toggler{
+  border: 1px solid #48B749;
+}
+
+.navbar-light  .navbar-toggler.collapsed{
+  background-color: rgba(72, 183, 74, 0.849);
+  border: 1px solid #E5E6E5;
+  color: #E5E6E5;
+}
+
+.navbar-light .navbar-toggler:hover{
+  background-color: #48B749;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  color: rgba(72, 183, 74, 0.849);
+  
+}
+
+
+
+
+/***************My Styles*******************/
+.wide-header-title{
+   display: none;
+}
+
+.small-header-title{
+  font-weight: 700;
+  font-size: 2rem;
+  
+
+}
 
 .fgrlogo{
     float: right;
@@ -55,4 +91,32 @@
     .fgrlogo{
        display: none;
     }
+}
+
+/*For when the screen is 575px or wider*/
+@media(min-width:575px){
+
+  .wide-header-title{
+    display: block;
+    font-weight: 700;
+  }
+
+  .small-header-title{
+    display: none;
+  }
+}
+
+
+.BRhome{
+  background-color: red;
+}
+
+.MainNavBar{
+  background-color: #E5E6E5;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  color: #E5E6E5;
+  text-decoration: none;
+  background-color: #4E5058;
 }

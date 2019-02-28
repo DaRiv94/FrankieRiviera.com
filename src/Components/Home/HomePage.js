@@ -9,7 +9,7 @@ const HomePage = () => {
         <h1 className="welcome-banner">Welcome to FrankieRiviera.com</h1>
         <h4>
           Thank you for visiting my online portfolio, please go to the{" "}
-          <Link to="/about">About Me</Link> page to learn more me.
+          <Link to="/about">About Me</Link> page to learn more. Or to my <Link to="/portfolio">Portfolio</Link> page to see some of my work.
         </h4>
       </div>
     </div>

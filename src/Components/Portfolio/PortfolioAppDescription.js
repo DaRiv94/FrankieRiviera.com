@@ -25,7 +25,6 @@ const PortfolioAppDescription = ({
         <a href={link} target="_blank">
           {title} here.{" "}
         </a>
-        (Or click the picture)
       </p>
 
 
@@ -37,7 +36,6 @@ const PortfolioAppDescription = ({
           <a href={repo} target="_blank">
             repository here.{" "}
           </a>
-          (Or click the picture)
         </p>
       )}
       

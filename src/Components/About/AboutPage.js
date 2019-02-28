@@ -17,8 +17,8 @@ const AboutPage = () => {
           <h1>Hi I'm Frankie,</h1>
           <p>
             From a very young age I have been engaged in learning the subjects
-            of Science, Technology, Engineering and Mathematics. When I was 11 I
-            built my first electrical circuit. When I was 13 I built my first C#
+            of Science, Technology, Engineering and Mathematics. When I was 11, I
+            built my first electrical circuit. When I was 13, I built my first C#
             application. As I grew up, I continued my learning by attending
             Michigan State University and earning a Bachelor of Science in
             Computer Engineering. While in school, I learned about computers

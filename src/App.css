@@ -2,13 +2,16 @@
     /* background-color: chartreuse; */
     background-image:  radial-gradient(circle, rgba(56, 56, 56, 0.9), rgba(56, 56, 56, 0.6), rgba(56, 56, 56, 0.4)), url("./images/CityOfDetroit.jpg");
     background-size: cover;
-    height: 100vh;
-    width: 100vw;
+    min-height: 100vh;
+    min-width: 100vw;
+    height: 100%;
+    width: 100%;
 
     font-family: 'Montserrat', Impact, Haettenschweiler, 'Arial Narrow Bold';
     
     
 }
+
 
 
 

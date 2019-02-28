@@ -4,7 +4,7 @@
 
 .welcome-div{
     opacity: .85;
-    margin-top: 25vh;
+    margin-top: 15vh;
     text-align: center;
     background-color: #E5E6E5;  
     
@@ -12,6 +12,10 @@
     padding: 50px;
     min-width: 300px;
     
+}
+
+.home.container{
+   margin-bottom: 30px;
 }
 
 /*FOR MOBILE*/
