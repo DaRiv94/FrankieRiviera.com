@@ -88,11 +88,12 @@ class PortfolioApp extends Component {
 
     return (
       <div
+        id={title}
         style={{ backgroundColor: bgColor }}
         className="portfolio-app-row row"
       >
         <div className="col-12 offset-sm-2 offset-md-1 col-md-4">
-          <a className="app-pic-link" href={link} target="_blank">
+          <a className="app-pic-link" href={link} target="_blank" rel="noopener noreferrer">
             <img className="app-pic" src={image} alt={title} />
           </a>
         </div>

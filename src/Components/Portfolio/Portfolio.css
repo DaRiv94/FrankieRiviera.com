@@ -16,12 +16,30 @@
     padding: 30px;
     height: auto;
   }
-  
+
 .portfolio-app-row{
     padding-top: 30px;
     padding-bottom: 30px;
 
 }
+  .portfolioDivHead{
+    padding: 50px;
+    
+  }
+
+  .portfolioDivHead h5{
+    padding: 10px 0px;
+    
+  }
+  
+  .portfolioDivHead ul{
+    padding-left: 0;
+    list-style-position: inside;
+  }
+
+  .portfolioDivHead li{
+    padding: 5px;
+  }
 
 
   .app-info {
@@ -47,6 +65,11 @@
       background-color: #e5e6e5;
       padding: 30px;
       height: auto;
+    }
+
+    .portfolioDivHead{
+      padding: 40px;
+      text-align: center;
     }
   
     .app-pic {

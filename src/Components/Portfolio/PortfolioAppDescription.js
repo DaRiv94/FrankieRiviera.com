@@ -16,29 +16,27 @@ const PortfolioAppDescription = ({
       </p>
       <ul className="keyFeatures">
         {features.map(feature => {
-          return <li>{feature}</li>;
+          return <li key={feature} >{feature}</li>;
         })}
       </ul>
 
       <p>
         Check out &nbsp;
-        <a href={link} target="_blank">
+        <a href={link} target="_blank" rel="noopener noreferrer">
           {title} here.{" "}
         </a>
       </p>
-
 
       {title === "My Legacy Website" ? (
         <></>
       ) : (
         <p>
           See {title}&nbsp;
-          <a href={repo} target="_blank">
+          <a href={repo} target="_blank" rel="noopener noreferrer">
             repository here.{" "}
           </a>
         </p>
       )}
-      
     </>
   );
 };
