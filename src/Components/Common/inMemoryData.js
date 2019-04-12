@@ -16,7 +16,7 @@ const inMemoryData = {
     Or when artists they are following add new gigs.`,
 
     image: gighub,
-    link: "https://fgrgighub.herokuapp.com",
+    link: "https://gighubapp.herokuapp.com",
     repo: "https://github.com/DaRiv94/GigHub",
     features: [
       "Authentication and authorization",
