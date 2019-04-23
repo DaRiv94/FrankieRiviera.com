@@ -56,7 +56,7 @@ const Header = () => {
               <NavDropdown title="More" id="basic-nav-dropdown">
                 <NavDropdown.Item
                   target="_blank"
-                  href="https://1drv.ms/b/s!AmvR4B65PaCHovVQ5IDcNDOUC0x5AQ"
+                  href="https://1drv.ms/b/s!AkZCHeupyJZAglrJmEaXC3KeU06V"
                 >
                   Resume
                 </NavDropdown.Item>

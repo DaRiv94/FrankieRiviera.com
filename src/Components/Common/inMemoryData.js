@@ -242,7 +242,7 @@ const inMemoryData = {
     image: fgrapi,
     link: "https://fgr-api-docs.surge.sh/uscolony",
     repo: "https://github.com/DaRiv94/USColoniesAzureFunction",
-    features: ["Sererless api", "Uses Microsoft Azure Function","Uses Microsoft Azure Table Storage"],
+    features: ["Serverless api", "Uses Microsoft Azure Function","Uses Microsoft Azure Table Storage"],
     technologies: [
       { tech: "Azure Function", use: "uses ASP.NET Core behind the scenes to run as a serverless function" },
       { tech: "C#", use: "As programming language used thoughout" },
