@@ -4,6 +4,7 @@ import gighub from "../../images/GigHub.jpg";
 import fgrapidocs from "../../images/fgrapiviewerSquare.png";
 import fgrapi from "../../images/FGR_API_Transparent.png";
 import visionApi from "../../images/VisionApi.png";
+import taskMaster from "../../images/TaskMaster.png";
 
 const inMemoryData = {
   gighub: {
@@ -291,6 +292,41 @@ const inMemoryData = {
         use: "For hosting backend apis"
       },
       { tech: "Surge", use: "For hosting React frontend" }
+    ]
+  },
+  taskMaster: {
+    title: "Task Master",
+    shortDescription: "Full-Stack app that uses ASP.NET Core for backend and React.js for frontend ",
+    description: `TaskMaster is a microservice architecture example todo app that demonstates all CRUD operations using ASP.NET Core on the backend and React.js on the frontend.`,
+    image: taskMaster,
+    link: "https://taskmasterfrontend.surge.sh/",
+    repo: "https://github.com/DaRiv94/TaskMasterFrontend",
+    features: ["Uses ASP.NET Core for REST API", "Uses Docker to containerize API","Uses Microsoft Azure SQL Server","Uses React for interactive UI","Performs all CRUD operations"],
+    technologies: [
+      { tech: "ASP.NET Core", use: "Framework used for backend REST api" },
+      { tech: "Entity Framework", use: "Object Relational Mapper used for database communication" },
+      
+      { tech: "Azure SQL Server", use: "For storing data in the cloud" },
+      {
+        tech: "C#",
+        use: "Programming language for backend devlopment"
+      },
+      {
+        tech: "React.js",
+        use: "For frontend UI"
+      },
+      { tech: "JavaScript", use: "Programming language for frontend devlopment" },
+      {
+        tech: "GIT",
+        use: "For source control"
+      },
+      { tech: "GitHub", use: "For external repository" },
+      {
+        tech: "Heroku",
+        use: "For hosting backend REST api"
+      },
+      { tech: "Surge", use: "For hosting React frontend" },
+      { tech: "Docker", use: "For containeriztion for deployment" }
     ]
   }
 };

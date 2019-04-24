@@ -16,7 +16,8 @@ class PortfolioPage extends Component {
       vidlyapi: inMemoryData.vidlyapi,
       fgrPresidentApi: inMemoryData.fgrPresidentApi,
       fgrUsColonyApi: inMemoryData.fgrUsColonyApi,
-      computerVisionApiExample: inMemoryData.computerVisionApiExample
+      computerVisionApiExample: inMemoryData.computerVisionApiExample,
+      taskMaster: inMemoryData.taskMaster
     };
   }
 
@@ -28,7 +29,8 @@ class PortfolioPage extends Component {
       vidlyapi,
       fgrPresidentApi,
       fgrUsColonyApi,
-      computerVisionApiExample
+      computerVisionApiExample,
+      taskMaster
     } = this.state;
     return (
       <div className="portfolio-page-main-div container-fluid">
@@ -48,6 +50,10 @@ class PortfolioPage extends Component {
             <li>
               <a href={"#" + gighub.title}>{gighub.title}</a> -{" "}
               {gighub.shortDescription}
+            </li>
+            <li>
+              <a href={"#" + taskMaster.title}>{taskMaster.title}</a> -{" "}
+              {taskMaster.shortDescription}
             </li>
             <li>
               <a href={"#" + geolocation.title}>{geolocation.title}</a> -{" "}
@@ -81,11 +87,12 @@ class PortfolioPage extends Component {
           {...gighub}
           
         />
-        <PortolioApp {...geolocation} bgColor="#dbdbdb"/>
-        <PortolioApp {...fgrApiDocs}  />
-        <PortolioApp {...vidlyapi} bgColor="#dbdbdb"/>
-        <PortolioApp {...fgrPresidentApi} />
-        <PortolioApp {...fgrUsColonyApi} bgColor="#dbdbdb"/>
+        <PortolioApp {...taskMaster} bgColor="#dbdbdb"/>
+        <PortolioApp {...geolocation} />
+        <PortolioApp {...fgrApiDocs}  bgColor="#dbdbdb"/>
+        <PortolioApp {...vidlyapi} />
+        <PortolioApp {...fgrPresidentApi} bgColor="#dbdbdb" />
+        <PortolioApp {...fgrUsColonyApi} />
       </div>
     );
   }
