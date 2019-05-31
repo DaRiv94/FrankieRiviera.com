@@ -47,14 +47,14 @@ class PortfolioPage extends Component {
               <a href={"#" + computerVisionApiExample.title}>{computerVisionApiExample.title}</a> -{" "}
               {computerVisionApiExample.shortDescription}
             </li>
-            <li>
+            {/* <li>
               <a href={"#" + gighub.title}>{gighub.title}</a> -{" "}
               {gighub.shortDescription}
             </li>
             <li>
               <a href={"#" + taskMaster.title}>{taskMaster.title}</a> -{" "}
               {taskMaster.shortDescription}
-            </li>
+            </li> */}
             <li>
               <a href={"#" + geolocation.title}>{geolocation.title}</a> -{" "}
               {geolocation.shortDescription}
@@ -78,7 +78,7 @@ class PortfolioPage extends Component {
           </ul>
         </div>
         <PortolioApp {...computerVisionApiExample} bgColor="#dbdbdb" />
-        <PortolioApp
+        {/* <PortolioApp
           // title={gighub.title}
           // description={gighub.description}
           // image={gighub.picture}
@@ -87,7 +87,7 @@ class PortfolioPage extends Component {
           {...gighub}
           
         />
-        <PortolioApp {...taskMaster} bgColor="#dbdbdb"/>
+        <PortolioApp {...taskMaster} bgColor="#dbdbdb"/> */}
         <PortolioApp {...geolocation} />
         <PortolioApp {...fgrApiDocs}  bgColor="#dbdbdb"/>
         <PortolioApp {...vidlyapi} />
