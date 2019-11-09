@@ -3,8 +3,10 @@
   "version": "0.1.0",
   "description": "This is my react application with for my Online Portfolio",
   "private": true,
+  "homepage": "https://frankieriviera.com",
   "dependencies": {
-    "bootstrap": "^4.2.1",
+    "bootstrap": "^4.3.1",
+    "gh-pages": "^2.1.1",
     "react": "^16.8.1",
     "react-bootstrap": "^1.0.0-beta.5",
     "react-dom": "^16.8.1",
@@ -12,6 +14,8 @@
     "react-scripts": "^2.1.8"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
