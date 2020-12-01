@@ -3,6 +3,7 @@ import PortfolioAppDescription from "./PortfolioAppDescription";
 import PortfolioAppTech from "./PortfolioAppTech";
 import PortfolioAppButtons from "./PortfolioAppButtons";
 import PropTypes from "prop-types";
+import ckad_image from '../../images/ckad_from_cncfsite.png'
 
 class PortfolioApp extends Component {
   constructor(props) {
@@ -88,7 +89,7 @@ class PortfolioApp extends Component {
       image = "https://via.placeholder.com/300",
       separatePage
     } = this.props;
-
+//https://www.youracclaim.com/badges/fe571b34-07dd-4298-915c-32dca08d8e5a
     return (
       <div
         id={title}
@@ -103,7 +104,13 @@ class PortfolioApp extends Component {
 
         <div className="app-info col-12 col-md-6">
           {this.appButtons()}
-          <h2>{title}</h2>
+
+          {title=="FGR Kubernetes Demo" ? <h2>{title}
+          <a href="https://www.youracclaim.com/badges/fe571b34-07dd-4298-915c-32dca08d8e5a" target="_blank" >
+            <img className="mybadge" src={ckad_image} alt="Certified Kubernetes Application Develper Badge" />
+          </a></h2> 
+          :<h2>{title}</h2>}
+          
           {this.appDetails()}
         </div>
       </div>

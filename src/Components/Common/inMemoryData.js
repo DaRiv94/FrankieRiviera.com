@@ -5,9 +5,8 @@ import fgrapidocs from "../../images/fgrapiviewerSquare.png";
 import fgrapi from "../../images/FGR_API_Transparent.png";
 import visionApi from "../../images/VisionApi.png";
 import taskMaster from "../../images/TaskMaster.png";
-import kubernetesOverviewImage from "../../images/FGR_kubernetes_demo_overview.png"
+import FGR_BUDGET_APP from "../../images/FGRFINANCE.png"
 
-//
 const inMemoryData = {
 
   kubernetes_demo: {
@@ -15,10 +14,10 @@ const inMemoryData = {
     shortDescription:
       "Full Stack app that demonstrates the use of Kubernetes, and containerization in a microservice architecture.",
     description: `This Kubernetes demo demonstrates my proficiency with Containerization, Kubernetes, 
-    and the building of full scale applications from scratch using a microservice architecture. 
+    and the building of full-scale applications from scratch using a microservice architecture. 
     The application use case is a personal budget app that connects to bank accounts and allows users to track transactions, and manage budgets.`,
     separatePage:"/portfolio/kubernetes-demo",
-    image: kubernetesOverviewImage,
+    image: FGR_BUDGET_APP,
     link: "https://fgr-kubernetes-demo.northcentralus.cloudapp.azure.com",
     repo: null,
     features: [
@@ -42,7 +41,7 @@ const inMemoryData = {
       },
       {
         tech: "Node.js",
-        use: "For backend apis"
+        use: "For backend APIs"
       },
       {
         tech: "React",
@@ -53,14 +52,14 @@ const inMemoryData = {
         use: "For data persistenace"
       },
       {
-        tech: "Azure Kubernetees Service",
+        tech: "Azure Kubernetees Service (AKS)",
         use: "For cloud hosting"
       },
       {
         tech: "Plaid API",
         use: "For connecting bank accounts in demo"
       },
-      { tech: "Sendgrid API", use: "For email notifications in demo." }
+      { tech: "SendGrid API", use: "For email notifications in demo." }
     ]
   },
   gighub: {
@@ -80,7 +79,7 @@ const inMemoryData = {
       "Notifications",
       "Ability to follow artists",
       "Search",
-      "CRUD Apis for gigs",
+      "CRUD APIs for gigs",
       "Stores data in Azure SQL Server"
     ],
     technologies: [
@@ -159,7 +158,7 @@ const inMemoryData = {
   geolocation: {
     title: "Geolocation",
     shortDescription:
-      "React front-end app that consumes external apis to find location.",
+      "React front-end app that consumes external APIs to find location.",
     description: "Mobile friendly application that finds your location.",
     separatePage: null,
     image: geolocation,
@@ -173,9 +172,9 @@ const inMemoryData = {
         use: "For finding precise user position"
       },
       {
-        tech: "Bing Maps location Apis",
+        tech: "Bing Maps location APIs",
         use:
-          "External apis used to get location information based on latitude and longitude"
+          "External APIs used to get location information based on latitude and longitude"
       },
       { tech: "JavaScript", use: "As programming language used throughout" },
       { tech: "HTML", use: "For markup " },
@@ -330,12 +329,12 @@ const inMemoryData = {
     image: visionApi,
     link: "https://fgr-picture-upload-test.surge.sh/",
     repo: "https://github.com/DaRiv94/ComputerVisionApiExample",
-    features: ["Uses Azure Cognitive Services", "Uses Microsoft Azure Blob Storage", "Uses Node.js backend apis", "Uses React for simple UI"],
+    features: ["Uses Azure Cognitive Services", "Uses Microsoft Azure Blob Storage", "Uses Node.js backend APIs", "Uses React for simple UI"],
     technologies: [
       { tech: "Azure Cognitive Services", use: "For using Azure's Computer Vision Api" },
       { tech: "Azure Blob Storage", use: "For storing images in the cloud" },
 
-      { tech: "Node.js", use: "As javaScript runtime for backend apis" },
+      { tech: "Node.js", use: "As javaScript runtime for backend APIs" },
       {
         tech: "Express.js",
         use: "As web framework on Node.js to help with running the server"
@@ -352,7 +351,7 @@ const inMemoryData = {
       { tech: "GitHub", use: "For external repository" },
       {
         tech: "Heroku",
-        use: "For hosting backend apis"
+        use: "For hosting backend APIs"
       },
       { tech: "Surge", use: "For hosting React frontend" }
     ]

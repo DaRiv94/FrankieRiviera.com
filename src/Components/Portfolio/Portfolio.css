@@ -29,7 +29,7 @@
 
   .portfolioDivHead h5{
     padding: 10px 0px;
-    
+    line-height: 170%;
   }
   
   .portfolioDivHead ul{
@@ -39,6 +39,11 @@
 
   .portfolioDivHead li{
     padding: 5px;
+  }
+
+  .portfolioDivHead p{
+    padding: 20px;
+    line-height: 200%;
   }
 
 
@@ -58,15 +63,25 @@
     border-radius: 10px;
     
   }
+
   .explaination_image {
     max-height: 100%;
     width: 100%;
     min-width: 40vw;
     max-width: 80vw;
     border-radius: 5px;
-    
   }
+
+  .mybadge, .budgetDemoIcon{
+    max-height: 100%;
+    width: 100%;
+    min-width: 60px;
+    max-width: 90px;
+  }
+
+
   
+
   /*for tablets or smaller*/
   @media (max-width: 768px) {
     .portfolio-page-main-div {
