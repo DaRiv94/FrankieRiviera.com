@@ -6,7 +6,8 @@ const PortfolioAppDescription = ({
   description,
   link,
   features,
-  repo
+  repo,
+  separatePage
 }) => {
   return (
     <>
@@ -20,22 +21,33 @@ const PortfolioAppDescription = ({
         })}
       </ul>
 
-      <p>
+      
+
+      {separatePage ? (
+        <>
+        <p>
+        See more detailed info about &nbsp;
+        <a href={separatePage} rel="noopener noreferrer">
+          {title} here.{" "}
+        </a>
+      </p>
+      </>
+      ) : (
+        <>
+        <p>
         Check out &nbsp;
         <a href={link} target="_blank" rel="noopener noreferrer">
           {title} here.{" "}
         </a>
       </p>
-
-      {title === "My Legacy Website" ? (
-        <></>
-      ) : (
         <p>
           See {title}&nbsp;
           <a href={repo} target="_blank" rel="noopener noreferrer">
             repository here.{" "}
           </a>
         </p>
+        </>
+        
       )}
     </>
   );

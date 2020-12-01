@@ -8,6 +8,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 // import Form from 'react-bootstrap/Form';
 // import FormControl from 'react-bootstrap/FormControl';
 // import Button from 'react-bootstrap/Button';
+// import picture from 
 
 const Header = () => {
   return (
@@ -52,14 +53,17 @@ const Header = () => {
               >
                 Portfolio
               </NavLink>
+              <NavLink
+                className="btn btn-primary"
+                activeClassName="active"
+                to="/Frankie_G_Riviera_Resume.pdf"
+                target="_blank"
+              >
+                Resume
+              </NavLink>
+
 
               <NavDropdown title="More" id="basic-nav-dropdown">
-                <NavDropdown.Item
-                  target="_blank"
-                  href="https://1drv.ms/b/s!AkZCHeupyJZAglrJmEaXC3KeU06V"
-                >
-                  Resume
-                </NavDropdown.Item>
                 <NavDropdown.Item
                   target="_blank"
                   href="https://www.linkedin.com/in/frankie-riviera/"
@@ -67,16 +71,10 @@ const Header = () => {
                   LinkedIn
                 </NavDropdown.Item>
                 <NavDropdown.Item
-                  target="_blank"
+                  
                   href="https://github.com/DaRiv94"
                 >
                   GitHub
-                </NavDropdown.Item>
-                <NavDropdown.Item
-                  target="_blank"
-                  href="https://github.com/DaRiv94/FrankieRiviera.com"
-                >
-                  This Site's Repo
                 </NavDropdown.Item>
               </NavDropdown>
             </Nav>

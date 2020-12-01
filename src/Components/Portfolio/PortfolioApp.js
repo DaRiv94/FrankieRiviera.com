@@ -47,6 +47,7 @@ class PortfolioApp extends Component {
       link,
       features,
       repo,
+      separatePage,
       technologies = [{ tech: "HTML", use: "For Static markup" }]
     } = this.props;
 
@@ -58,6 +59,7 @@ class PortfolioApp extends Component {
           link={link}
           features={features}
           repo={repo}
+          separatePage={separatePage}
         />
       );
     } else {
@@ -83,7 +85,8 @@ class PortfolioApp extends Component {
       title = "SomeTitle",
       link = "http://frankieriviera.com/",
       bgColor = "#e5e6e5",
-      image = "https://via.placeholder.com/300"
+      image = "https://via.placeholder.com/300",
+      separatePage
     } = this.props;
 
     return (
@@ -93,7 +96,7 @@ class PortfolioApp extends Component {
         className="portfolio-app-row row"
       >
         <div className="col-12 offset-sm-2 offset-md-1 col-md-4">
-          <a className="app-pic-link" href={link} target="_blank" rel="noopener noreferrer">
+          <a className="app-pic-link" href={separatePage ? separatePage: link} target={separatePage ? "": "_blank"} rel="noopener noreferrer">
             <img className="app-pic" src={image} alt={title} />
           </a>
         </div>

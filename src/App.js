@@ -6,6 +6,7 @@ import "./App.css";//I should import this before the other pages, otherwise thei
 import HomePage from "./Components/Home/HomePage";
 import AboutPage from "./Components/About/AboutPage";
 import PortfolioPage from './Components/Portfolio/PortfolioPage';
+import KubernetesDemoPage from './Components/Portfolio/SubPage/KubernetesDemoPage';
 import NotFound from "./Components/Common/NotFound";
 
 
@@ -21,8 +22,9 @@ class App extends Component {
 
           <Switch>
             <Route exact path="/" component={HomePage} />
-          <Route path="/about" component={AboutPage} />
-          <Route path="/portfolio" component={PortfolioPage} />
+          <Route exact path="/about" component={AboutPage} />
+          <Route exact path="/portfolio" component={PortfolioPage} />
+          <Route exact path="/portfolio/kubernetes-demo" component={KubernetesDemoPage} />
           <Route component={NotFound} />
           </Switch>
           

@@ -5,8 +5,64 @@ import fgrapidocs from "../../images/fgrapiviewerSquare.png";
 import fgrapi from "../../images/FGR_API_Transparent.png";
 import visionApi from "../../images/VisionApi.png";
 import taskMaster from "../../images/TaskMaster.png";
+import kubernetesOverviewImage from "../../images/FGR_kubernetes_demo_overview.png"
 
+//
 const inMemoryData = {
+
+  kubernetes_demo: {
+    title: "FGR Kubernetes Demo",
+    shortDescription:
+      "Full Stack app that demonstrates the use of Kubernetes, and containerization in a microservice architecture.",
+    description: `This Kubernetes demo demonstrates my proficiency with Containerization, Kubernetes, 
+    and the building of full scale applications from scratch using a microservice architecture. 
+    The application use case is a personal budget app that connects to bank accounts and allows users to track transactions, and manage budgets.`,
+    separatePage:"/portfolio/kubernetes-demo",
+    image: kubernetesOverviewImage,
+    link: "https://fgr-kubernetes-demo.northcentralus.cloudapp.azure.com",
+    repo: null,
+    features: [
+      "Uses Kubernetes to orchestrate containers",
+      "Microservice architecture allows for ideal separation of concerns",
+      "Uses Azure Kubernetes Service for Cloud Hosting",
+      "App Demo allows users to create accounts, connect to bank accounts, and manage budgets"
+    ],
+    technologies: [
+      {
+        tech: "Kubernetes",
+        use: "Used for container orchestration"
+      },
+      {
+        tech: "Docker",
+        use: "For container runtime"
+      },
+      {
+        tech: "Nginx-ingress",
+        use: "For cluster load balancing"
+      },
+      {
+        tech: "Node.js",
+        use: "For backend apis"
+      },
+      {
+        tech: "React",
+        use: "For frontend UI"
+      },
+      {
+        tech: "Postgres",
+        use: "For data persistenace"
+      },
+      {
+        tech: "Azure Kubernetees Service",
+        use: "For cloud hosting"
+      },
+      {
+        tech: "Plaid API",
+        use: "For connecting bank accounts in demo"
+      },
+      { tech: "Sendgrid API", use: "For email notifications in demo." }
+    ]
+  },
   gighub: {
     title: "GigHub",
     shortDescription:
@@ -15,7 +71,7 @@ const inMemoryData = {
     Where artists can create accounts, and post when and where they are having gigs. Artists can choose to attend others gigs, 
     and or follow other artists. Artists get notifications when gigs they are going to get changed or canceled. 
     Or when artists they are following add new gigs.`,
-
+    separatePage: null,
     image: gighub,
     link: "https://gighubapp.herokuapp.com",
     repo: "https://github.com/DaRiv94/GigHub",
@@ -87,6 +143,7 @@ const inMemoryData = {
       Here it is, my former static website, 
       with my old resume, video portfolio, 
       and kensington internship newsletters.`,
+    separatePage: null,
     image: oldFgrWebsite,
     link: "http://frankgriviera.azurewebsites.net/index.html",
     repo: "https://github.com/DaRiv94",
@@ -104,6 +161,7 @@ const inMemoryData = {
     shortDescription:
       "React front-end app that consumes external apis to find location.",
     description: "Mobile friendly application that finds your location.",
+    separatePage: null,
     image: geolocation,
     link: "https://fgrgeolocation.surge.sh",
     repo: "https://github.com/DaRiv94/FGR-Geolocation-App",
@@ -145,6 +203,7 @@ const inMemoryData = {
     shortDescription: "React front-end app that consumes FGR APIs.",
     description:
       "Front-end app built to document demonstrate and display how FGR APIs work. FGR API Docs shows endpoints with accordion like transitions. It offers explainations, code samples, and a clean UI.",
+    separatePage: null,
     image: fgrapidocs,
     link: "https://fgr-api-docs.surge.sh",
     repo: "https://github.com/DaRiv94/FGR-API-Docs",
@@ -178,6 +237,7 @@ const inMemoryData = {
     description: `FGR Vidly API is an example movie rental service api. 
     Its built with node.js and uses a mongoDB database in the cloud. 
     FGR Vidly API has api endpoints for several use cases that would be ideal for consumption by a front-end web app.`,
+    separatePage: null,
     image: fgrapi,
     link: "https://boiling-meadow-22539.herokuapp.com",
     repo: "https://github.com/DaRiv94/FGR-Vidly-API",
@@ -185,7 +245,7 @@ const inMemoryData = {
     technologies: [
       { tech: "Node.js", use: "As javaScript runtime" },
       { tech: "Express.js", use: "As web framework on Node to help with running the server" },
-      
+
       { tech: "MongoDB Atlas", use: "For storing data in the cloud" },
       {
         tech: "Mongoose",
@@ -211,6 +271,7 @@ const inMemoryData = {
     title: "FGR President API",
     shortDescription: "Back-end api built with Node.js and Azure Table Storage.",
     description: `FGR President API is an example api that uses Microsoft Azure Table Storage`,
+    separatePage:null,
     image: fgrapi,
     link: "https://fgr-president-api.herokuapp.com/",
     repo: "https://github.com/DaRiv94/FGR-President-API",
@@ -218,7 +279,7 @@ const inMemoryData = {
     technologies: [
       { tech: "Node.js", use: "As javaScript runtime" },
       { tech: "Express.js", use: "As web framework on Node to help with running the server" },
-      
+
       { tech: "Azure Table Storage", use: "For storing data in the cloud" },
       { tech: "JavaScript", use: "As programming language used throughout" },
       {
@@ -240,14 +301,15 @@ const inMemoryData = {
     title: "FGR US Colony API",
     shortDescription: "Back-end serverless api built with an Azure Function in the Azure cloud",
     description: `FGR US Colony API is an example serverless api that uses a Microsoft Azure Function`,
+    separatePage:null,
     image: fgrapi,
     link: "https://fgr-api-docs.surge.sh/uscolony",
     repo: "https://github.com/DaRiv94/USColoniesAzureFunction",
-    features: ["Serverless api", "Uses Microsoft Azure Function","Uses Microsoft Azure Table Storage"],
+    features: ["Serverless api", "Uses Microsoft Azure Function", "Uses Microsoft Azure Table Storage"],
     technologies: [
       { tech: "Azure Function", use: "uses ASP.NET Core behind the scenes to run as a serverless function" },
       { tech: "C#", use: "As programming language used thoughout" },
-      
+
       { tech: "Azure Table Storage", use: "For storing data in the cloud" },
       {
         tech: "Git",
@@ -264,14 +326,15 @@ const inMemoryData = {
     title: "Computer Vision Api Example",
     shortDescription: "Full-Stack app that uses Microsoft Azure Cloud's Cognitive Services ",
     description: `Computer Vision Api Example demonstrates my understanding and the functionality of the Azure Computer Vision Api, which is one of Microsoft Azure's Cognitive Services`,
+    separatePage:null,
     image: visionApi,
     link: "https://fgr-picture-upload-test.surge.sh/",
     repo: "https://github.com/DaRiv94/ComputerVisionApiExample",
-    features: ["Uses Azure Cognitive Services", "Uses Microsoft Azure Blob Storage","Uses Node.js backend apis","Uses React for simple UI"],
+    features: ["Uses Azure Cognitive Services", "Uses Microsoft Azure Blob Storage", "Uses Node.js backend apis", "Uses React for simple UI"],
     technologies: [
       { tech: "Azure Cognitive Services", use: "For using Azure's Computer Vision Api" },
       { tech: "Azure Blob Storage", use: "For storing images in the cloud" },
-      
+
       { tech: "Node.js", use: "As javaScript runtime for backend apis" },
       {
         tech: "Express.js",
@@ -298,14 +361,15 @@ const inMemoryData = {
     title: "Task Master",
     shortDescription: "Full-Stack app that uses ASP.NET Core for backend and React.js for frontend ",
     description: `TaskMaster is a microservice architecture example todo app that demonstates all CRUD operations using ASP.NET Core on the backend and React.js on the frontend.`,
+    separatePage:null,
     image: taskMaster,
     link: "https://taskmasterfrontend.surge.sh/",
     repo: "https://github.com/DaRiv94/TaskMasterFrontend",
-    features: ["Uses ASP.NET Core for REST API", "Uses Docker to containerize API","Uses Microsoft Azure SQL Server","Uses React for interactive UI","Performs all CRUD operations"],
+    features: ["Uses ASP.NET Core for REST API", "Uses Docker to containerize API", "Uses Microsoft Azure SQL Server", "Uses React for interactive UI", "Performs all CRUD operations"],
     technologies: [
       { tech: "ASP.NET Core", use: "Framework used for backend REST api" },
       { tech: "Entity Framework", use: "Object Relational Mapper used for database communication" },
-      
+
       { tech: "Azure SQL Server", use: "For storing data in the cloud" },
       {
         tech: "C#",

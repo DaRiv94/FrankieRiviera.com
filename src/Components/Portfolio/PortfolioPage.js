@@ -17,7 +17,8 @@ class PortfolioPage extends Component {
       fgrPresidentApi: inMemoryData.fgrPresidentApi,
       fgrUsColonyApi: inMemoryData.fgrUsColonyApi,
       computerVisionApiExample: inMemoryData.computerVisionApiExample,
-      taskMaster: inMemoryData.taskMaster
+      taskMaster: inMemoryData.taskMaster,
+      kubernetes_demo: inMemoryData.kubernetes_demo,
     };
   }
 
@@ -30,7 +31,8 @@ class PortfolioPage extends Component {
       fgrPresidentApi,
       fgrUsColonyApi,
       computerVisionApiExample,
-      taskMaster
+      taskMaster,
+      kubernetes_demo
     } = this.state;
     return (
       <div className="portfolio-page-main-div container-fluid">
@@ -44,6 +46,10 @@ class PortfolioPage extends Component {
           </h5>
           <ul>
             <li>
+              <a href={"#" + kubernetes_demo.title}>{kubernetes_demo.title}</a> -{" "}
+              {kubernetes_demo.shortDescription}
+            </li>
+            <li>
               <a href={"#" + computerVisionApiExample.title}>{computerVisionApiExample.title}</a> -{" "}
               {computerVisionApiExample.shortDescription}
             </li>
@@ -55,10 +61,10 @@ class PortfolioPage extends Component {
               <a href={"#" + taskMaster.title}>{taskMaster.title}</a> -{" "}
               {taskMaster.shortDescription}
             </li> */}
-            <li>
+            {/* <li>
               <a href={"#" + geolocation.title}>{geolocation.title}</a> -{" "}
               {geolocation.shortDescription}
-            </li>
+            </li> */}
             <li>
               <a href={"#" + fgrApiDocs.title}>{fgrApiDocs.title}</a> -{" "}
               {fgrApiDocs.shortDescription}
@@ -77,7 +83,8 @@ class PortfolioPage extends Component {
             </li>
           </ul>
         </div>
-        <PortolioApp {...computerVisionApiExample} bgColor="#dbdbdb" />
+        <PortolioApp {...kubernetes_demo} bgColor="#dbdbdb"/>
+        <PortolioApp {...computerVisionApiExample}  />
         {/* <PortolioApp
           // title={gighub.title}
           // description={gighub.description}
@@ -88,11 +95,11 @@ class PortfolioPage extends Component {
           
         />
         <PortolioApp {...taskMaster} bgColor="#dbdbdb"/> */}
-        <PortolioApp {...geolocation} />
-        <PortolioApp {...fgrApiDocs}  bgColor="#dbdbdb"/>
+        {/* <PortolioApp {...geolocation} /> */}
+        <PortolioApp {...fgrApiDocs} bgColor="#dbdbdb" />
         <PortolioApp {...vidlyapi} />
         <PortolioApp {...fgrPresidentApi} bgColor="#dbdbdb" />
-        <PortolioApp {...fgrUsColonyApi} />
+        <PortolioApp {...fgrUsColonyApi}  />
       </div>
     );
   }
