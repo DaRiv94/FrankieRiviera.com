@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "320d1ae0ee90a94f81ebc5de309fda96",
-    "url": "/static/media/OldFgrWebsite.320d1ae0.JPG"
+    "revision": "1a99c1fc790020abdad4",
+    "url": "/static/css/main.87de8076.chunk.css"
   },
   {
-    "revision": "9bd72b7e63894d40aa58",
-    "url": "/static/css/main.d37cf2a6.chunk.css"
+    "revision": "1a99c1fc790020abdad4",
+    "url": "/static/js/main.c3753907.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "8c6a8d877ac7ea4637658f854c4923fd",
-    "url": "/static/media/CityOfDetroit.8c6a8d87.jpg"
+    "revision": "17713d9d0c531e30dcad",
+    "url": "/static/css/2.676785dc.chunk.css"
   },
   {
-    "revision": "156c04ea3d7ddb2798b2",
-    "url": "/static/js/2.21c1558c.chunk.js"
+    "revision": "17713d9d0c531e30dcad",
+    "url": "/static/js/2.3db21ae3.chunk.js"
   },
   {
     "revision": "60ddb9c7194d674db45ef0df21b426cc",
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/static/media/ckad_from_cncfsite.99ab862e.png"
   },
   {
-    "revision": "9bd72b7e63894d40aa58",
-    "url": "/static/js/main.8714718e.chunk.js"
+    "revision": "320d1ae0ee90a94f81ebc5de309fda96",
+    "url": "/static/media/OldFgrWebsite.320d1ae0.JPG"
   },
   {
     "revision": "fa87763737ff382f20a0ce2132ba4228",
@@ -52,6 +52,10 @@ self.__precacheManifest = [
     "url": "/static/media/TaskMaster.ac447a8b.png"
   },
   {
+    "revision": "bb051fa8ad337bb836d7cdfaff9b74a8",
+    "url": "/static/media/1000x1000_FGR_FINANCE.bb051fa8.png"
+  },
+  {
     "revision": "285f0c9e065788a263f06d40f4ac4c23",
     "url": "/static/media/FGR_kubernetes_demo_overview.285f0c9e.png"
   },
@@ -60,11 +64,11 @@ self.__precacheManifest = [
     "url": "/static/media/detailed_fgr_kubernetes_demo.df91ecd8.png"
   },
   {
-    "revision": "156c04ea3d7ddb2798b2",
-    "url": "/static/css/2.cbd58bf5.chunk.css"
+    "revision": "8c6a8d877ac7ea4637658f854c4923fd",
+    "url": "/static/media/CityOfDetroit.8c6a8d87.jpg"
   },
   {
-    "revision": "257eaa3011a6bcea72468a7e002b64f4",
+    "revision": "a2a75ba17ef38cbf1136d055b0c9668d",
     "url": "/index.html"
   }
 ];
