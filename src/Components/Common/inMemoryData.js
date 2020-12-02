@@ -5,7 +5,7 @@ import fgrapidocs from "../../images/fgrapiviewerSquare.png";
 import fgrapi from "../../images/FGR_API_Transparent.png";
 import visionApi from "../../images/VisionApi.png";
 import taskMaster from "../../images/TaskMaster.png";
-import FGR_BUDGET_APP from "../../images/FGRFINANCE.png"
+import FGR_BUDGET_APP from "../../images/1000x1000_FGR_FINANCE.png"
 
 const inMemoryData = {
 
