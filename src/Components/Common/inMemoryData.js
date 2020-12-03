@@ -164,7 +164,7 @@ const inMemoryData = {
         use: "As backend framework"
       },
       {
-        tech: "Postgresql",
+        tech: "Postgres",
         use: "As Database (If configured, I hope to support more databases in the future)"
       },
       {
