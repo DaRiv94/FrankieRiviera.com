@@ -135,6 +135,48 @@ const inMemoryData = {
       }
     ]
   },
+  fgr_dynamic_auth_service: {
+    title: "FGR Dynamic Auth Service",
+    shortDescription:
+      "Dockerized configurable authentication and authorization microservice ready out of the box",
+    description: `The FGR Dynamic Auth Service can be used to quickly spin up an authentication and authorization microservice
+    and can be easily configured for different use cases in a few short commands.`,
+    separatePage: null,
+    image: fgrapi,
+    link: "https://github.com/DaRiv94/fgr_dynamic_auth",
+    repo: "https://github.com/DaRiv94/fgr_dynamic_auth",
+    features: [
+      "Provides authentication and authorization out of the box",
+      "Uses Docker for quick use and easy container orchestration",
+      "Can be configured with and without a database"
+    ],
+    technologies: [
+      {
+        tech: "Docker",
+        use: "For containerization"
+      },
+      {
+        tech: "Json Web Tokens",
+        use: "As method of authorization"
+      },
+      {
+        tech: "Node.js",
+        use: "As backend framework"
+      },
+      {
+        tech: "Postgresql",
+        use: "As Database (If configured, I hope to support more databases in the future)"
+      },
+      {
+        tech: "Git",
+        use: "For source control"
+      },
+      {
+        tech: "GitHub",
+        use: "For external repository"
+      }
+    ]
+  },
   oldfgr: {
     title: "My Legacy Website",
     shortDescription: "My legacy website built with pure static files",

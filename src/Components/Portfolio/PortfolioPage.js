@@ -19,6 +19,8 @@ class PortfolioPage extends Component {
       computerVisionApiExample: inMemoryData.computerVisionApiExample,
       taskMaster: inMemoryData.taskMaster,
       kubernetes_demo: inMemoryData.kubernetes_demo,
+      fgr_dynamic_auth_service: inMemoryData.fgr_dynamic_auth_service
+      
     };
   }
 
@@ -32,7 +34,8 @@ class PortfolioPage extends Component {
       fgrUsColonyApi,
       computerVisionApiExample,
       taskMaster,
-      kubernetes_demo
+      kubernetes_demo,
+      fgr_dynamic_auth_service
     } = this.state;
     return (
       <div className="portfolio-page-main-div container-fluid">
@@ -48,6 +51,10 @@ class PortfolioPage extends Component {
             <li>
               <a href={"#" + kubernetes_demo.title}>{kubernetes_demo.title}</a> -{" "}
               {kubernetes_demo.shortDescription}
+            </li>
+            <li>
+              <a href={"#" + fgr_dynamic_auth_service.title}>{fgr_dynamic_auth_service.title}</a> -{" "}
+              {fgr_dynamic_auth_service.shortDescription}
             </li>
             <li>
               <a href={"#" + computerVisionApiExample.title}>{computerVisionApiExample.title}</a> -{" "}
@@ -84,7 +91,8 @@ class PortfolioPage extends Component {
           </ul>
         </div>
         <PortolioApp {...kubernetes_demo} bgColor="#dbdbdb"/>
-        <PortolioApp {...computerVisionApiExample}  />
+        <PortolioApp {...fgr_dynamic_auth_service}  />
+        <PortolioApp {...computerVisionApiExample} bgColor="#dbdbdb" />
         {/* <PortolioApp
           // title={gighub.title}
           // description={gighub.description}
@@ -96,10 +104,10 @@ class PortfolioPage extends Component {
         />
         <PortolioApp {...taskMaster} bgColor="#dbdbdb"/> */}
         {/* <PortolioApp {...geolocation} /> */}
-        <PortolioApp {...fgrApiDocs} bgColor="#dbdbdb" />
-        <PortolioApp {...vidlyapi} />
-        <PortolioApp {...fgrPresidentApi} bgColor="#dbdbdb" />
-        <PortolioApp {...fgrUsColonyApi}  />
+        <PortolioApp {...fgrApiDocs}  />
+        <PortolioApp {...vidlyapi} bgColor="#dbdbdb"/>
+        <PortolioApp {...fgrPresidentApi}  />
+        <PortolioApp {...fgrUsColonyApi}  bgColor="#dbdbdb"/>
       </div>
     );
   }
