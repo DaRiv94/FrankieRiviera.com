@@ -7,6 +7,7 @@ import visionApi from "../../images/VisionApi.png";
 import taskMaster from "../../images/TaskMaster.png";
 import FGR_BUDGET_APP from "../../images/1000x1000_FGR_FINANCE.png";
 import IdentityUserImage from "../../images/user_image_transparentbg.png";
+import RaspberryPiImage from "../../images/raspberry_pi_logo.png"
 
 const inMemoryData = {
 
@@ -17,7 +18,7 @@ const inMemoryData = {
     description: `This Kubernetes demo demonstrates my proficiency with Containerization, Kubernetes, 
     and the building of full-scale applications from scratch using a microservice architecture. 
     The application use case is a personal budget app that connects to bank accounts and allows users to track transactions, and manage budgets.`,
-    separatePage:"/portfolio/kubernetes-demo",
+    separatePage: "/portfolio/kubernetes-demo",
     image: FGR_BUDGET_APP,
     link: "https://fgr-kubernetes-demo.northcentralus.cloudapp.azure.com",
     repo: null,
@@ -61,6 +62,42 @@ const inMemoryData = {
         use: "For connecting bank accounts in demo"
       },
       { tech: "SendGrid API", use: "For email notifications in demo." }
+    ]
+  },
+  Billiard_replay: {
+    title: "Billiard Replay",
+    shortDescription:
+      "A Desktop app that uses a raspberry pi to record video for ",
+    description: ` Billiard Replay is a python desktop that interfaces with a raspberry pi 4 to record video on a loop. A user can use Billiard replay to capture and save their billiard shots and also email the video to themselves.`,
+    separatePage: "/portfolio/billiard-replay",
+    image: RaspberryPiImage,
+    link: "https://www.youtube.com/watch?v=DzJR1_381G0",
+    repo: "https://github.com/DaRiv94/RaspberryPi_Billiard_Camera",
+    features: [
+      "Constantly records on a loop to save billiard shots on demand",
+      "Can view instant replays of past or recently saved billiard shots",
+      "Can rename saved video files as desired",
+      "Can email saved videos to yourself from the app",
+      "Can capture videos at set video lengths for quick access or custom video length up to 5 minutes"
+
+    ],
+    technologies: [
+      {
+        tech: "Raspberry pi 4",
+        use: "Device of choice for Billiard Replay"
+      },
+      {
+        tech: "Tkinter",
+        use: "As Python desktop framework"
+      },
+      {
+        tech: "SendGrid",
+        use: "For sending emails with video files"
+      },
+      {
+        tech: "Python",
+        use: "Programming language"
+      },
     ]
   },
   gighub: {
@@ -313,7 +350,7 @@ const inMemoryData = {
     title: "FGR President API",
     shortDescription: "Back-end api built with Node.js and Azure Table Storage.",
     description: `FGR President API is an example api that uses Microsoft Azure Table Storage`,
-    separatePage:null,
+    separatePage: null,
     image: fgrapi,
     link: "https://fgr-president-api.herokuapp.com/",
     repo: "https://github.com/DaRiv94/FGR-President-API",
@@ -343,7 +380,7 @@ const inMemoryData = {
     title: "FGR US Colony API",
     shortDescription: "Back-end serverless api built with an Azure Function in the Azure cloud",
     description: `FGR US Colony API is an example serverless api that uses a Microsoft Azure Function`,
-    separatePage:null,
+    separatePage: null,
     image: fgrapi,
     link: "https://fgr-api-docs.surge.sh/uscolony",
     repo: "https://github.com/DaRiv94/USColoniesAzureFunction",
@@ -368,7 +405,7 @@ const inMemoryData = {
     title: "Computer Vision Api Example",
     shortDescription: "Full-Stack app that uses Microsoft Azure Cloud's Cognitive Services ",
     description: `Computer Vision Api Example demonstrates my understanding and the functionality of the Azure Computer Vision Api, which is one of Microsoft Azure's Cognitive Services`,
-    separatePage:null,
+    separatePage: null,
     image: visionApi,
     link: "https://fgr-picture-upload-test.surge.sh/",
     repo: "https://github.com/DaRiv94/ComputerVisionApiExample",
@@ -403,7 +440,7 @@ const inMemoryData = {
     title: "Task Master",
     shortDescription: "Full-Stack app that uses ASP.NET Core for backend and React.js for frontend ",
     description: `TaskMaster is a microservice architecture example todo app that demonstates all CRUD operations using ASP.NET Core on the backend and React.js on the frontend.`,
-    separatePage:null,
+    separatePage: null,
     image: taskMaster,
     link: "https://taskmasterfrontend.surge.sh/",
     repo: "https://github.com/DaRiv94/TaskMasterFrontend",
