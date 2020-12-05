@@ -5,7 +5,8 @@ import fgrapidocs from "../../images/fgrapiviewerSquare.png";
 import fgrapi from "../../images/FGR_API_Transparent.png";
 import visionApi from "../../images/VisionApi.png";
 import taskMaster from "../../images/TaskMaster.png";
-import FGR_BUDGET_APP from "../../images/1000x1000_FGR_FINANCE.png"
+import FGR_BUDGET_APP from "../../images/1000x1000_FGR_FINANCE.png";
+import IdentityUserImage from "../../images/user_image_transparentbg.png";
 
 const inMemoryData = {
 
@@ -142,7 +143,7 @@ const inMemoryData = {
     description: `The FGR Dynamic Auth Service can be used to quickly spin up an authentication and authorization microservice
     and can be easily configured for different use cases in a few short commands.`,
     separatePage: null,
-    image: fgrapi,
+    image: IdentityUserImage,
     link: "https://github.com/DaRiv94/fgr_dynamic_auth",
     repo: "https://github.com/DaRiv94/fgr_dynamic_auth",
     features: [
