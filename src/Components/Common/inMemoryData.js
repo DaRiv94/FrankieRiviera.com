@@ -67,7 +67,7 @@ const inMemoryData = {
   Billiard_replay: {
     title: "Billiard Replay",
     shortDescription:
-      "A Desktop app that uses a raspberry pi to record video for ",
+      "A desktop app that uses a raspberry pi to record instant replays of cool billiard shots",
     description: ` Billiard Replay is a python desktop that interfaces with a raspberry pi 4 to record video on a loop. A user can use Billiard replay to capture and save their billiard shots and also email the video to themselves.`,
     separatePage: "/portfolio/billiard-replay",
     image: RaspberryPiImage,
