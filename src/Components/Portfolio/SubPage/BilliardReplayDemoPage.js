@@ -79,7 +79,8 @@ class KubernetesDemoPage extends Component {
                             This feature is included in case a user would like a more exact video capture length.
                         </li>
                     </ul>
-                    <p></p>
+                    <h2>Source Code</h2>
+                    <p>The Github Repository can be found <a href="https://github.com/DaRiv94/RaspberryPi_Billiard_Camera">Here</a></p>
 
                     <h5>
                         Back to <a href="/portfolio">portfolio page</a>
