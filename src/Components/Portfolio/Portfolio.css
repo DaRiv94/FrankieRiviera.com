@@ -79,6 +79,19 @@
     max-width: 90px;
   }
 
+  .BilliardReplayVideoDemo{
+    border: none;
+    width: 100%;
+    /* width: 80%; */
+    height: 50vw;
+    
+}
+
+.DivBilliardReplayVideoDemo{
+    margin: 30px 0px;
+    /* height: 100vh; */
+}
+
 
   
 

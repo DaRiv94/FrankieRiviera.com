@@ -64,11 +64,13 @@ const inMemoryData = {
       { tech: "SendGrid API", use: "For email notifications in demo." }
     ]
   },
-  Billiard_replay: {
+  billiard_replay: {
     title: "Billiard Replay",
     shortDescription:
       "A desktop app that uses a raspberry pi to record instant replays of cool billiard shots",
-    description: ` Billiard Replay is a python desktop that interfaces with a raspberry pi 4 to record video on a loop. A user can use Billiard replay to capture and save their billiard shots and also email the video to themselves.`,
+    description: `Billiard Replay is a python desktop app that interfaces with a raspberry pi 4 to record video on a loop. 
+    A user can use Billiard Replay to capture and save their billiard shots 
+    and email the video to themselves.`,
     separatePage: "/portfolio/billiard-replay",
     image: RaspberryPiImage,
     link: "https://www.youtube.com/watch?v=DzJR1_381G0",

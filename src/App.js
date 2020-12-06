@@ -7,6 +7,7 @@ import HomePage from "./Components/Home/HomePage";
 import AboutPage from "./Components/About/AboutPage";
 import PortfolioPage from './Components/Portfolio/PortfolioPage';
 import KubernetesDemoPage from './Components/Portfolio/SubPage/KubernetesDemoPage';
+import BilliardReplayDemoPage from './Components/Portfolio/SubPage/BilliardReplayDemoPage';
 import NotFound from "./Components/Common/NotFound";
 
 
@@ -25,6 +26,7 @@ class App extends Component {
           <Route exact path="/about" component={AboutPage} />
           <Route exact path="/portfolio" component={PortfolioPage} />
           <Route exact path="/portfolio/kubernetes-demo" component={KubernetesDemoPage} />
+          <Route exact path="/portfolio/billiard-replay" component={BilliardReplayDemoPage} />
           <Route component={NotFound} />
           </Switch>
           
