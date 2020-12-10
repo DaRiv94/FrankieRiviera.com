@@ -56,7 +56,7 @@ const Header = () => {
               <NavLink
                 className="btn btn-primary"
                 activeClassName="active"
-                to="/Frankie_G_Riviera_Resume.pdf"
+                to="/Resume_Frankie_G_Riviera_2020_01_export_01.pdf"
                 target="_blank"
               >
                 Resume
