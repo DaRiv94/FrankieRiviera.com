@@ -20,7 +20,7 @@ const inMemoryData = {
     The application use case is a personal budget app that connects to bank accounts and allows users to track transactions, and manage budgets.`,
     separatePage: "/portfolio/kubernetes-demo",
     image: FGR_BUDGET_APP,
-    link: "https://fgr-kubernetes-demo.northcentralus.cloudapp.azure.com",
+    link: "http://kubernetes-demo.frankieriviera.com",
     repo: null,
     features: [
       "Uses Kubernetes to orchestrate containers",
