@@ -10,6 +10,8 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 // import Button from 'react-bootstrap/Button';
 // import picture from 
 
+const RESUME_PDF = "/Resume_Frankie_G_Riviera_2021.pdf"
+
 const Header = () => {
   return (
     <React.Fragment>
@@ -56,7 +58,7 @@ const Header = () => {
               <NavLink
                 className="btn btn-primary"
                 activeClassName="active"
-                to="/Resume_Frankie_G_Riviera_2020.pdf"
+                to={RESUME_PDF}
                 target="_blank"
               >
                 Resume

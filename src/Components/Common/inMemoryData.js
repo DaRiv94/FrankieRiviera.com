@@ -178,7 +178,7 @@ const inMemoryData = {
   fgr_dynamic_auth_service: {
     title: "FGR Dynamic Auth Service",
     shortDescription:
-      "Dockerized configurable authentication and authorization microservice ready out of the box",
+      "Dockerized configurable authentication and authorization microservice",
     description: `The FGR Dynamic Auth Service can be used to quickly spin up an authentication and authorization microservice
     and can be easily configured for different use cases in a few short commands.`,
     separatePage: null,
