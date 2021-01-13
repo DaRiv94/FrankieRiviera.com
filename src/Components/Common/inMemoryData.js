@@ -16,7 +16,7 @@ const inMemoryData = {
     shortDescription:
       "Full Stack app that demonstrates the use of Kubernetes, and containerization in a microservice architecture.",
     description: `This Kubernetes demo demonstrates my proficiency with Containerization, Kubernetes, 
-    and the building of full-scale applications from scratch using a microservice architecture. 
+    and the building of full-scale applications from scratch using a microservice architecture.
     The application use case is a personal budget app that connects to bank accounts and allows users to track transactions, and manage budgets.`,
     separatePage: "/portfolio/kubernetes-demo",
     image: FGR_BUDGET_APP,
@@ -26,7 +26,8 @@ const inMemoryData = {
       "Uses Kubernetes to orchestrate containers",
       "Microservice architecture allows for ideal separation of concerns",
       "Uses Azure Kubernetes Service for Cloud Hosting",
-      "App Demo allows users to create accounts, connect to bank accounts, and manage budgets"
+      "App Demo allows users to create accounts, connect to bank accounts, and manage budgets",
+      "Uses Terraform to quickly spin up and spin down cloud resources"
     ],
     technologies: [
       {
@@ -56,6 +57,10 @@ const inMemoryData = {
       {
         tech: "Azure Kubernetees Service (AKS)",
         use: "For cloud hosting"
+      },
+      {
+        tech: "Terraform",
+        use: "For Infastructure as code"
       },
       {
         tech: "Plaid API",
