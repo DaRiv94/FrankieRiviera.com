@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "21e6fb2f9d1a110b565e",
-    "url": "/static/css/main.c57e7546.chunk.css"
+    "revision": "b70ccf30ffee5fb927a3",
+    "url": "/static/css/main.17b54811.chunk.css"
   },
   {
-    "revision": "21e6fb2f9d1a110b565e",
-    "url": "/static/js/main.edad2c93.chunk.js"
+    "revision": "b70ccf30ffee5fb927a3",
+    "url": "/static/js/main.46624e91.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "5b6d0ac2fdfae3e5d093",
-    "url": "/static/css/2.676785dc.chunk.css"
+    "revision": "d9476ad9fa1623bf437e",
+    "url": "/static/css/2.5785b1b5.chunk.css"
   },
   {
-    "revision": "5b6d0ac2fdfae3e5d093",
-    "url": "/static/js/2.568236cd.chunk.js"
+    "revision": "d9476ad9fa1623bf437e",
+    "url": "/static/js/2.edb3694c.chunk.js"
   },
   {
     "revision": "60ddb9c7194d674db45ef0df21b426cc",
@@ -34,6 +34,10 @@ self.__precacheManifest = [
   {
     "revision": "99ab862ea5ffedb7d320b5f6a6cc154f",
     "url": "/static/media/ckad_from_cncfsite.99ab862e.png"
+  },
+  {
+    "revision": "9dc4293639c7d2e0cfac7281771ce1b3",
+    "url": "/static/media/Terraform-Associate-Badge.9dc42936.png"
   },
   {
     "revision": "320d1ae0ee90a94f81ebc5de309fda96",
@@ -76,7 +80,7 @@ self.__precacheManifest = [
     "url": "/static/media/CityOfDetroit.8c6a8d87.jpg"
   },
   {
-    "revision": "948896606765b03d7ad820fa6a0a9878",
+    "revision": "22eff26edcfeab8551ec533ae7e60c36",
     "url": "/index.html"
   }
 ];
