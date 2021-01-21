@@ -29,9 +29,13 @@ class KubernetesDemoPage extends Component {
             Kubernetes, and the building of full-scale applications from scratch using a microservice architecture.
             This demo application use case is a personal budget app that connects to bank accounts and allows users to track transactions, and manage budgets.
           </h5>
+          <h2>Access to Demo</h2>
           <h5>
-            Link to demo application can be found here and at the end of this page.  <a href={kubernetes_demo.link}> <img className="budgetDemoIcon" src={kubernetes_demo.image} />  Running Kubernetes Demo</a>
+            Ask me about getting access to the FGR Kubernetes Demo at <a href="mailto:FrankGRiviera@outlook.com">FrankGRiviera@outlook.com</a>. I will get back to you with a link to check it out!
           </h5>
+          {/* <h5>
+            Link to demo application can be found here and at the end of this page.  <a href={kubernetes_demo.link}> <img className="budgetDemoIcon" src={kubernetes_demo.image} />  Running Kubernetes Demo</a>
+          </h5> */}
           <h2>Key features include…</h2>
           <ul>
             <li>
@@ -116,9 +120,10 @@ class KubernetesDemoPage extends Component {
           The Postgres pod connects to a Persistent Volume Claim which is bound to a Persistent Volume which maps data on to the Nodes file system.
           In a real world production application, your long-term persisting data should not rely on the Node's file system and should use more reliable external data persistence options.
           The current setup is intended to keep the demo simple and hosting expenses low.  </p>
-          <h5>
+          {/* <h5>
           Link to demo application can be found here and at the top of this page below the description. <a href={kubernetes_demo.link}><img className="budgetDemoIcon" src={kubernetes_demo.image} />Running Kubernetes Demo</a>
-          </h5><h5>
+          </h5> */}
+          <h5>
           Back to <a href="/portfolio">portfolio page</a>
           </h5>
         </div>
