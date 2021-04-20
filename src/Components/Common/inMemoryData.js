@@ -8,6 +8,7 @@ import taskMaster from "../../images/TaskMaster.png";
 import FGR_BUDGET_APP from "../../images/1000x1000_FGR_FINANCE.png";
 import IdentityUserImage from "../../images/user_image_transparentbg.png";
 import RaspberryPiImage from "../../images/raspberry_pi_logo.png"
+import FGR_AI_Image from "../../images/FGR_AI.png"
 
 const inMemoryData = {
 
@@ -110,39 +111,58 @@ const inMemoryData = {
   custom_vision_license_plate_detector: {
     title: "Custom Vision License Plate Detector",
     shortDescription:
-      "A desktop app that uses a raspberry pi to record instant replays of cool billiard shots",
-    description: `Billiard Replay is a python desktop app that interfaces with a raspberry pi 4 to record video on a loop. 
-    A user can use Billiard Replay to capture and save their billiard shots 
-    and email the video to themselves.`,
-    separatePage: "/portfolio/billiard-replay",
-    image: RaspberryPiImage,
-    link: "https://www.youtube.com/watch?v=DzJR1_381G0",
-    repo: "https://github.com/DaRiv94/RaspberryPi_Billiard_Camera",
+      "Custom Computer Vision Solution to Detect License Plates using YOLOv4 object detection algorithm",
+    description: `Custom Vision License Plate Detector uses YOLOv4 object detection algorithm.
+    It utilizes Object Classification along with Object Localization to provide accurate results.
+    Using transfer learning, the custom model was trained based on a YOLOv4 COCO model to achieve a mean Average Precision of greater than 80%.`,
+    separatePage: "/portfolio/custom-vision",
+    image: FGR_AI_Image,
+    link: "https://fgr-custom-vision-license-plate-detector.surge.sh/",
+    repo: "https://github.com/DaRiv94/FGR_Custom_Object_Detection_Backend",
+    repo2: "https://github.com/DaRiv94/FGR_Custom_Object_Detection_Frontend",
     features: [
-      "Constantly records on a loop to save billiard shots on demand",
-      "Can view instant replays of past or recently saved billiard shots",
-      "Can rename saved video files as desired",
-      "Can email saved videos to yourself from the app",
-      "Can capture videos at set video lengths for quick access or custom video length up to 5 minutes"
-
+      "License Plate Object Classification",
+      "License Plate Object Localization",
+      "Displays Image with Object Detection BoundingBox and Accuracy Rating",
+      "Accepts JPG, JPEG, PNG, and BMP image files."
     ],
     technologies: [
       {
-        tech: "Raspberry pi 4",
-        use: "Device of choice for Billiard Replay"
+        tech: "YOLOv4",
+        use: "Object Detection Algorithm"
       },
       {
-        tech: "Tkinter",
-        use: "As Python desktop framework"
-      },
-      {
-        tech: "SendGrid",
-        use: "For sending emails with video files"
+        tech: "Tensorflow",
+        use: "Machine Learning Library"
       },
       {
         tech: "Python",
-        use: "Programming language"
+        use: "Backend API programming language"
       },
+      {
+        tech: "Flask",
+        use: "Python web framework"
+      },
+      {
+        tech: "Docker",
+        use: "Containerization"
+      },
+      {
+        tech: "Azure Web App",
+        use: "Backend API Hosting"
+      },
+      {
+        tech: "Javascript",
+        use: "Frontend app programming language"
+      },
+      {
+        tech: "React",
+        use: "Frontend web app framework"
+      },
+      {
+        tech: "Surge",
+        use: "Frontend web app hosting"
+      }
     ]
   },
   gighub: {
