@@ -1,23 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "6db802a0fb4c7c38aff7",
-    "url": "/static/css/main.17b54811.chunk.css"
+    "revision": "e8da8865f28a2dcf84af",
+    "url": "/static/css/main.d5ee57c2.chunk.css"
   },
   {
-    "revision": "6db802a0fb4c7c38aff7",
-    "url": "/static/js/main.4c05e92a.chunk.js"
+    "revision": "e8da8865f28a2dcf84af",
+    "url": "/static/js/main.31f19270.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "d9476ad9fa1623bf437e",
+    "revision": "32fc558a8a30acdef606",
     "url": "/static/css/2.5785b1b5.chunk.css"
   },
   {
-    "revision": "d9476ad9fa1623bf437e",
-    "url": "/static/js/2.edb3694c.chunk.js"
+    "revision": "32fc558a8a30acdef606",
+    "url": "/static/js/2.8a6b619c.chunk.js"
+  },
+  {
+    "revision": "506096df78ed5c3d27b461eef74eee61",
+    "url": "/static/media/azure-developer-associate-600x600.506096df.png"
   },
   {
     "revision": "60ddb9c7194d674db45ef0df21b426cc",
@@ -80,7 +84,7 @@ self.__precacheManifest = [
     "url": "/static/media/CityOfDetroit.8c6a8d87.jpg"
   },
   {
-    "revision": "7ad67b8416221c1179b05484d9a7d2c1",
+    "revision": "b0bb46355b5221ce7320963e2c5f7f46",
     "url": "/index.html"
   }
 ];
