@@ -115,7 +115,6 @@ const inMemoryData = {
     Where artists can create accounts, and post when and where they are having gigs. Artists can choose to attend others gigs, 
     and or follow other artists. Artists get notifications when gigs they are going to get changed or canceled. 
     Or when artists they are following add new gigs.`,
-    separatePage: null,
     image: gighub,
     link: "https://gighubapp.herokuapp.com",
     repo: "https://github.com/DaRiv94/GigHub",
@@ -186,7 +185,6 @@ const inMemoryData = {
       "Dockerized configurable authentication and authorization microservice",
     description: `The FGR Dynamic Auth Service can be used to quickly spin up an authentication and authorization microservice
     and can be easily configured for different use cases in a few short commands.`,
-    separatePage: null,
     image: IdentityUserImage,
     link: "https://github.com/DaRiv94/fgr_dynamic_auth",
     repo: "https://github.com/DaRiv94/fgr_dynamic_auth",
@@ -229,7 +227,6 @@ const inMemoryData = {
       Here it is, my former static website, 
       with my old resume, video portfolio, 
       and kensington internship newsletters.`,
-    separatePage: null,
     image: oldFgrWebsite,
     link: "http://frankgriviera.azurewebsites.net/index.html",
     repo: "https://github.com/DaRiv94",
@@ -247,7 +244,6 @@ const inMemoryData = {
     shortDescription:
       "React front-end app that consumes external APIs to find location.",
     description: "Mobile friendly application that finds your location.",
-    separatePage: null,
     image: geolocation,
     link: "https://fgrgeolocation.surge.sh",
     repo: "https://github.com/DaRiv94/FGR-Geolocation-App",
@@ -289,7 +285,6 @@ const inMemoryData = {
     shortDescription: "React front-end app that consumes FGR APIs.",
     description:
       "Front-end app built to document demonstrate and display how FGR APIs work. FGR API Docs shows endpoints with accordion like transitions. It offers explainations, code samples, and a clean UI.",
-    separatePage: null,
     image: fgrapidocs,
     link: "https://fgr-api-docs.surge.sh",
     repo: "https://github.com/DaRiv94/FGR-API-Docs",
@@ -323,7 +318,6 @@ const inMemoryData = {
     description: `FGR Vidly API is an example movie rental service api. 
     Its built with node.js and uses a mongoDB database in the cloud. 
     FGR Vidly API has api endpoints for several use cases that would be ideal for consumption by a front-end web app.`,
-    separatePage: null,
     image: fgrapi,
     link: "https://boiling-meadow-22539.herokuapp.com",
     repo: "https://github.com/DaRiv94/FGR-Vidly-API",
@@ -357,7 +351,6 @@ const inMemoryData = {
     title: "FGR President API",
     shortDescription: "Back-end api built with Node.js and Azure Table Storage.",
     description: `FGR President API is an example api that uses Microsoft Azure Table Storage`,
-    separatePage: null,
     image: fgrapi,
     link: "https://fgr-president-api.herokuapp.com/",
     repo: "https://github.com/DaRiv94/FGR-President-API",
@@ -387,7 +380,6 @@ const inMemoryData = {
     title: "FGR US Colony API",
     shortDescription: "Back-end serverless api built with an Azure Function in the Azure cloud",
     description: `FGR US Colony API is an example serverless api that uses a Microsoft Azure Function`,
-    separatePage: null,
     image: fgrapi,
     link: "https://fgr-api-docs.surge.sh/uscolony",
     repo: "https://github.com/DaRiv94/USColoniesAzureFunction",
@@ -412,7 +404,6 @@ const inMemoryData = {
     title: "Computer Vision Api Example",
     shortDescription: "Full-Stack app that uses Microsoft Azure Cloud's Cognitive Services ",
     description: `Computer Vision Api Example demonstrates my understanding and the functionality of the Azure Computer Vision Api, which is one of Microsoft Azure's Cognitive Services`,
-    separatePage: null,
     image: visionApi,
     link: "https://fgr-picture-upload-test.surge.sh/",
     repo: "https://github.com/DaRiv94/ComputerVisionApiExample",
@@ -447,7 +438,6 @@ const inMemoryData = {
     title: "Task Master",
     shortDescription: "Full-Stack app that uses ASP.NET Core for backend and React.js for frontend ",
     description: `TaskMaster is a microservice architecture example todo app that demonstates all CRUD operations using ASP.NET Core on the backend and React.js on the frontend.`,
-    separatePage: null,
     image: taskMaster,
     link: "https://taskmasterfrontend.surge.sh/",
     repo: "https://github.com/DaRiv94/TaskMasterFrontend",
