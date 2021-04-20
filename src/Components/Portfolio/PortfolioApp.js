@@ -5,6 +5,7 @@ import PortfolioAppButtons from "./PortfolioAppButtons";
 import PropTypes from "prop-types";
 import ckad_image from '../../images/ckad_from_cncfsite.png'
 import terraform_image from '../../images/Terraform-Associate-Badge.png'
+import azure_developer_image from '../../images/azure-developer-associate-600x600.png'
 
 class PortfolioApp extends Component {
   constructor(props) {
@@ -106,14 +107,44 @@ class PortfolioApp extends Component {
         <div className="app-info col-12 col-md-6">
           {this.appButtons()}
 
-          {title=="FGR Kubernetes Demo" ? <h2>{title}
+          {title=="FGR Kubernetes Demo" && <h2>{title}
           <a href="https://www.youracclaim.com/badges/fe571b34-07dd-4298-915c-32dca08d8e5a" target="_blank" >
             <img className="mybadge" src={ckad_image} alt="Certified Kubernetes Application Develper Badge" />
           </a>
           <a href="https://www.youracclaim.com/badges/7a1f9015-671f-420a-a5cc-b537818b2207" target="_blank" >
             <img className="mybadge" src={terraform_image} alt="HashiCorp Certified: Terraform Associate" />
+          </a>
+          <a href="https://www.credly.com/badges/552858cc-5d54-485b-b6d5-a6cba26191df" target="_blank" >
+            <img className="mybadge" src={azure_developer_image} alt="Microsoft Certified: Azure Developer Associate" />
           </a></h2> 
-          :<h2>{title}</h2>}
+          }
+
+          {title=="Computer Vision Api Example" && <h2>{title}
+          <a href="https://www.credly.com/badges/552858cc-5d54-485b-b6d5-a6cba26191df" target="_blank" >
+            <img className="mybadge" src={azure_developer_image} alt="Microsoft Certified: Azure Developer Associate" />
+          </a>
+          </h2> 
+          }
+
+          {title=="FGR President API" && <h2>{title}
+          <a href="https://www.credly.com/badges/552858cc-5d54-485b-b6d5-a6cba26191df" target="_blank" >
+            <img className="mybadge" src={azure_developer_image} alt="Microsoft Certified: Azure Developer Associate" />
+          </a>
+          </h2> 
+          }
+
+          {title=="FGR US Colony API" && <h2>{title}
+          <a href="https://www.credly.com/badges/552858cc-5d54-485b-b6d5-a6cba26191df" target="_blank" >
+            <img className="mybadge" src={azure_developer_image} alt="Microsoft Certified: Azure Developer Associate" />
+          </a>
+          </h2> 
+          }
+
+          {title!="FGR Kubernetes Demo" 
+          && title!="Computer Vision Api Example" 
+          && title!="FGR President API" 
+          && title!="FGR US Colony API" 
+          && <h2>{title}</h2>}
           
           {this.appDetails()}
         </div>
