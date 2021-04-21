@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "e8da8865f28a2dcf84af",
-    "url": "/static/css/main.d5ee57c2.chunk.css"
+    "revision": "ce1a0e91bc3af8405bef",
+    "url": "/static/css/main.fa0e2143.chunk.css"
   },
   {
-    "revision": "e8da8865f28a2dcf84af",
-    "url": "/static/js/main.31f19270.chunk.js"
+    "revision": "ce1a0e91bc3af8405bef",
+    "url": "/static/js/main.d6b50c46.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "32fc558a8a30acdef606",
+    "revision": "37212bac3c59e9d8ec1e",
     "url": "/static/css/2.5785b1b5.chunk.css"
   },
   {
-    "revision": "32fc558a8a30acdef606",
-    "url": "/static/js/2.8a6b619c.chunk.js"
+    "revision": "37212bac3c59e9d8ec1e",
+    "url": "/static/js/2.001ad243.chunk.js"
   },
   {
     "revision": "506096df78ed5c3d27b461eef74eee61",
@@ -72,6 +72,10 @@ self.__precacheManifest = [
     "url": "/static/media/raspberry_pi_logo.342b7dd8.png"
   },
   {
+    "revision": "f94a54fdb190cec344d45bd00b547ba4",
+    "url": "/static/media/FGR_AI.f94a54fd.png"
+  },
+  {
     "revision": "df91ecd87bb92e3f1ea0a96d8263a0da",
     "url": "/static/media/detailed_fgr_kubernetes_demo.df91ecd8.png"
   },
@@ -80,11 +84,15 @@ self.__precacheManifest = [
     "url": "/static/media/Billiard_Replay_info_Diagram.957f53a2.png"
   },
   {
+    "revision": "6f5ca6c55b7cad95fc3f8475798f7aeb",
+    "url": "/static/media/FGR_Custom_Vision_License_Plate_Detector.6f5ca6c5.gif"
+  },
+  {
     "revision": "8c6a8d877ac7ea4637658f854c4923fd",
     "url": "/static/media/CityOfDetroit.8c6a8d87.jpg"
   },
   {
-    "revision": "b0bb46355b5221ce7320963e2c5f7f46",
+    "revision": "19783d756070d6453d5a85ef4f324151",
     "url": "/index.html"
   }
 ];
