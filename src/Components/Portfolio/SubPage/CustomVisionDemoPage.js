@@ -5,7 +5,7 @@ import PortfolioAppTech from "../PortfolioAppTech";
 
 //this is all my in Memory Data
 import inMemoryData from "../../Common/inMemoryData";
-import OverviewImage from "../../../images/FGR_kubernetes_demo_overview.png"
+import DemoGIF from "../../../images/FGR_Custom_Vision_License_Plate_Detector.gif"
 // import BilliardReplayInfoDiagram from "../../../images/custom_vision_license_plate_detector_info_Diagram.png"
 
 class KubernetesDemoPage extends Component {
@@ -28,6 +28,11 @@ class KubernetesDemoPage extends Component {
                     <h5>
                         {custom_vision_license_plate_detector.description}
                     </h5>
+
+                    <h2>Check out the running demo!</h2>
+                    <h5>
+                        Link to demo application can be found here.  <a target="_blank" href={custom_vision_license_plate_detector.link}> <img className="budgetDemoIcon" src={custom_vision_license_plate_detector.image} />  Running FGR Custom Vision License Plate Detector</a>
+                    </h5>
                     <strong>Key Features include...</strong>
                     <ul className="keyFeatures">
                         {custom_vision_license_plate_detector.features.map(feature => {
@@ -36,13 +41,21 @@ class KubernetesDemoPage extends Component {
                     </ul>
 
                     <h5>
-                        Add a GIF here and LINK TO WEBSITE
+                        The YOLOv4 Object Detection Algorithm White Paper can be found <a target="_blank" href="https://arxiv.org/abs/2004.10934v1">Here</a>
                     </h5>
-                    
+
+
+                    <h5>
+                        See an example below!
+                    </h5>
+                    <div className="DivCustomVisionDemoGIF" >
+                        <iframe title="CustomVisionDemoGIF" className="CustomVisionDemoGIF" src={DemoGIF}  ></iframe>
+                    </div>
+
 
                     <h2>Source Code</h2>
-                    <p>Frontend Github Repository can be found <a href="https://github.com/DaRiv94/FGR_Custom_Object_Detection_Frontend">Here</a></p>
-                    <p>Backend Github Repository can be found <a href="https://github.com/DaRiv94/FGR_Custom_Object_Detection_Backend">Here</a></p>
+                    <p className="repourl" >Frontend Github Repository can be found <a target="_blank" href="https://github.com/DaRiv94/FGR_Custom_Object_Detection_Frontend">Here</a></p>
+                    <p className="repourl">Backend Github Repository can be found <a target="_blank" href="https://github.com/DaRiv94/FGR_Custom_Object_Detection_Backend">Here</a></p>
 
                     <h5>
                         Back to <a href="/portfolio">portfolio page</a>

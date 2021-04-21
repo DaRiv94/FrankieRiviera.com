@@ -29,7 +29,8 @@ class KubernetesDemoPage extends Component {
             Kubernetes, and the building of full-scale applications from scratch using a microservice architecture.
             This demo application use case is a personal budget app that connects to bank accounts and allows users to track transactions, and manage budgets.
           </h5>
-          <h2>Access to Demo</h2>
+          <h2>Check out the running demo!</h2>
+          {/* <h2>Access to Demo</h2> */}
           {/* <h5>
             Ask me about getting access to the FGR Kubernetes Demo at <a href="mailto:FrankGRiviera@outlook.com">FrankGRiviera@outlook.com</a>. I will get back to you with a link to check it out!
           </h5> */}
