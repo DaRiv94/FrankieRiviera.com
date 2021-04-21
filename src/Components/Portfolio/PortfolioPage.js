@@ -61,12 +61,12 @@ class PortfolioPage extends Component {
               {billiard_replay.shortDescription}
             </li>
             <li>
-              <a href={"#" + fgr_dynamic_auth_service.title}>{fgr_dynamic_auth_service.title}</a> -{" "}
-              {fgr_dynamic_auth_service.shortDescription}
-            </li>
-            <li>
               <a href={"#" + custom_vision_license_plate_detector.title}>{custom_vision_license_plate_detector.title}</a> -{" "}
               {custom_vision_license_plate_detector.shortDescription}
+            </li>
+            <li>
+              <a href={"#" + fgr_dynamic_auth_service.title}>{fgr_dynamic_auth_service.title}</a> -{" "}
+              {fgr_dynamic_auth_service.shortDescription}
             </li>
             <li>
               <a href={"#" + computerVisionApiExample.title}>{computerVisionApiExample.title}</a> -{" "}
@@ -104,8 +104,8 @@ class PortfolioPage extends Component {
         </div>
         <PortolioApp {...kubernetes_demo} bgColor="#dbdbdb"/>
         <PortolioApp {...billiard_replay} />
-        <PortolioApp {...fgr_dynamic_auth_service} bgColor="#dbdbdb" />
-        <PortolioApp {...custom_vision_license_plate_detector}  />
+        <PortolioApp {...custom_vision_license_plate_detector} bgColor="#dbdbdb" />
+        <PortolioApp {...fgr_dynamic_auth_service}  />
         <PortolioApp {...computerVisionApiExample} bgColor="#dbdbdb" />
         {/* <PortolioApp
           // title={gighub.title}
