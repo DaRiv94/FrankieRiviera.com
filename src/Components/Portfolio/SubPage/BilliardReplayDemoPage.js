@@ -44,7 +44,7 @@ class KubernetesDemoPage extends Component {
 
                     <h2>Billiard Replay Info Graphic</h2>
                     <img className="explaination_image" src={BilliardReplayInfoDiagram} alt="Info Graphic of Billiard Replay app" />
-                    <ul>
+                    <ul className="raspberrypi_list">
                         <li>
                             <strong>1.</strong> Instantly replay selected video files using VLC media player.
                         </li>
@@ -79,8 +79,6 @@ class KubernetesDemoPage extends Component {
                             This feature is included in case a user would like a more exact video capture length.
                         </li>
                     </ul>
-                    <h2>Source Code</h2>
-                    <p>The Github Repository can be found <a href="https://github.com/DaRiv94/RaspberryPi_Billiard_Camera">Here</a></p>
 
                     <h5>
                         Back to <a href="/portfolio">portfolio page</a>

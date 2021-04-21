@@ -243,4 +243,6 @@ button:focus {
     padding: 2px 0px;
   }
 
-  
+  ul.raspberrypi_list li{
+    list-style-type: none;
+  }
