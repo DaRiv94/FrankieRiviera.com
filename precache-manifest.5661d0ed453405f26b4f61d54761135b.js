@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "89612adca21bb39cbde7",
+    "revision": "1056ca107f1f0ec73922",
     "url": "/static/css/main.9cc2064c.chunk.css"
   },
   {
-    "revision": "89612adca21bb39cbde7",
-    "url": "/static/js/main.4a288cab.chunk.js"
+    "revision": "1056ca107f1f0ec73922",
+    "url": "/static/js/main.1cd87791.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "b9a5d58fb483d9b19bd2",
+    "revision": "b80c52adf12b0f8f7abd",
     "url": "/static/css/2.5785b1b5.chunk.css"
   },
   {
-    "revision": "b9a5d58fb483d9b19bd2",
-    "url": "/static/js/2.9e14a81d.chunk.js"
+    "revision": "b80c52adf12b0f8f7abd",
+    "url": "/static/js/2.bb108cc8.chunk.js"
   },
   {
     "revision": "506096df78ed5c3d27b461eef74eee61",
@@ -88,11 +88,15 @@ self.__precacheManifest = [
     "url": "/static/media/FGR_Custom_Vision_License_Plate_Detector.6f5ca6c5.gif"
   },
   {
+    "revision": "806aad314c4abb6b777147387b43fc7b",
+    "url": "/static/media/0042_api_management_diagram.806aad31.png"
+  },
+  {
     "revision": "8c6a8d877ac7ea4637658f854c4923fd",
     "url": "/static/media/CityOfDetroit.8c6a8d87.jpg"
   },
   {
-    "revision": "af495701c2f4360f75d33af011acbf59",
+    "revision": "8a640b087988389ff4606926c00c8d2c",
     "url": "/index.html"
   }
 ];
