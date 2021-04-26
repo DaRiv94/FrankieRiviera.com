@@ -9,6 +9,7 @@ import PortfolioPage from './Components/Portfolio/PortfolioPage';
 import KubernetesDemoPage from './Components/Portfolio/SubPage/KubernetesDemoPage';
 import BilliardReplayDemoPage from './Components/Portfolio/SubPage/BilliardReplayDemoPage';
 import CustomVisionDemoPage from './Components/Portfolio/SubPage/CustomVisionDemoPage';
+import APIManagementDemoPage from './Components/Portfolio/SubPage/APIManagementDemoPage';
 import NotFound from "./Components/Common/NotFound";
 
 
@@ -29,6 +30,8 @@ class App extends Component {
           <Route exact path="/portfolio/kubernetes-demo" component={KubernetesDemoPage} />
           <Route exact path="/portfolio/billiard-replay" component={BilliardReplayDemoPage} />
           <Route exact path="/portfolio/custom-vision" component={CustomVisionDemoPage} />
+          <Route exact path="/portfolio/api-managment" component={APIManagementDemoPage} />
+          
           <Route component={NotFound} />
           </Switch>
           

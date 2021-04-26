@@ -21,7 +21,8 @@ class PortfolioPage extends Component {
       kubernetes_demo: inMemoryData.kubernetes_demo,
       fgr_dynamic_auth_service: inMemoryData.fgr_dynamic_auth_service,
       billiard_replay: inMemoryData.billiard_replay,
-      custom_vision_license_plate_detector: inMemoryData.custom_vision_license_plate_detector
+      custom_vision_license_plate_detector: inMemoryData.custom_vision_license_plate_detector,
+      api_management: inMemoryData.api_management,
       
     };
   }
@@ -39,7 +40,8 @@ class PortfolioPage extends Component {
       kubernetes_demo,
       fgr_dynamic_auth_service,
       billiard_replay,
-      custom_vision_license_plate_detector
+      custom_vision_license_plate_detector,
+      api_management
     } = this.state;
     return (
       <div className="portfolio-page-main-div container-fluid">
@@ -57,12 +59,16 @@ class PortfolioPage extends Component {
               {kubernetes_demo.shortDescription}
             </li>
             <li>
-              <a href={"#" + billiard_replay.title}>{billiard_replay.title}</a> -{" "}
-              {billiard_replay.shortDescription}
-            </li>
-            <li>
               <a href={"#" + custom_vision_license_plate_detector.title}>{custom_vision_license_plate_detector.title}</a> -{" "}
               {custom_vision_license_plate_detector.shortDescription}
+            </li>
+            <li>
+              <a href={"#" + api_management.title}>{api_management.title}</a> -{" "}
+              {api_management.shortDescription}
+            </li>
+            <li>
+              <a href={"#" + billiard_replay.title}>{billiard_replay.title}</a> -{" "}
+              {billiard_replay.shortDescription}
             </li>
             <li>
               <a href={"#" + fgr_dynamic_auth_service.title}>{fgr_dynamic_auth_service.title}</a> -{" "}
@@ -103,10 +109,11 @@ class PortfolioPage extends Component {
           </ul>
         </div>
         <PortolioApp {...kubernetes_demo} bgColor="#dbdbdb"/>
+        <PortolioApp {...custom_vision_license_plate_detector}  />
+        <PortolioApp {...api_management} bgColor="#dbdbdb" />
         <PortolioApp {...billiard_replay} />
-        <PortolioApp {...custom_vision_license_plate_detector} bgColor="#dbdbdb" />
-        <PortolioApp {...fgr_dynamic_auth_service}  />
-        <PortolioApp {...computerVisionApiExample} bgColor="#dbdbdb" />
+        <PortolioApp {...fgr_dynamic_auth_service} bgColor="#dbdbdb" />
+        <PortolioApp {...computerVisionApiExample}  />
         {/* <PortolioApp
           // title={gighub.title}
           // description={gighub.description}
@@ -118,10 +125,10 @@ class PortfolioPage extends Component {
         />
         <PortolioApp {...taskMaster} bgColor="#dbdbdb"/> */}
         {/* <PortolioApp {...geolocation} /> */}
-        <PortolioApp {...fgrApiDocs}  />
-        <PortolioApp {...vidlyapi} bgColor="#dbdbdb"/>
-        <PortolioApp {...fgrPresidentApi}  />
-        <PortolioApp {...fgrUsColonyApi} bgColor="#dbdbdb" />
+        <PortolioApp {...fgrApiDocs} bgColor="#dbdbdb" />
+        <PortolioApp {...vidlyapi} />
+        <PortolioApp {...fgrPresidentApi} bgColor="#dbdbdb" />
+        <PortolioApp {...fgrUsColonyApi} />
       </div>
     );
   }

@@ -9,6 +9,7 @@ import FGR_BUDGET_APP from "../../images/1000x1000_FGR_FINANCE.png";
 import IdentityUserImage from "../../images/user_image_transparentbg.png";
 import RaspberryPiImage from "../../images/raspberry_pi_logo.png"
 import FGR_AI_Image from "../../images/FGR_AI.png"
+import APIManagementLogo from "../../images/apiManagementLogo.png"
 
 const inMemoryData = {
 
@@ -105,6 +106,52 @@ const inMemoryData = {
       {
         tech: "Python",
         use: "Programming language"
+      },
+    ]
+  },
+  api_management: {
+    title: "API Management app",
+    shortDescription:
+      "An Azure API Managment instance that acts as a gateway for Azure Functions and Azure Logic Apps",
+    description: `An Azure API Managment instance that acts as a gateway for Azure Functions and Azure Logic Apps. 
+    This API Management example shows how an end user could interact with a single baseurl when making http calls,
+    but behind the scenes they are interacting with several distinct microservices`,
+    separatePage: "/portfolio/api-managment",
+    image: APIManagementLogo,
+    link: "https://pickoutofhatapi.developer.azure-api.net/apis",
+    repo: "https://pickoutofhatapi.developer.azure-api.net/apis",
+    features: [
+      "API Management gateway for consumers to interact with",
+      "Utilizes API Management API Developer Portal to demonstate API Functionality",
+      "Demonstrates Azure Functions in different languages (python & Javascript) being used with API Management instance",
+      "Demonstrates Azure Logic App being used with API Management instance",
+      "Project uses Azure Logic App to reset Azure Table Storage periodically",
+      "Azure Table Storage bindings are used by Azure functions to easily communicate with storage"
+    ],
+    technologies: [
+      {
+        tech: "Azure API Management",
+        use: "For managing APIs, API gateway, and creating/managing Developer portal"
+      },
+      {
+        tech: "Azure Functions",
+        use: "For Python and Javascript functions"
+      },
+      {
+        tech: "Azure Logic Apps",
+        use: "Used for an API endpoint, and used to periodically clean azure table storage"
+      },
+      {
+        tech: "Azure Storage",
+        use: "Used to storage the Azure Functions data"
+      },
+      {
+        tech: "Python",
+        use: "programming language for Azure Function PickABoardgame app"
+      },
+      {
+        tech: "JavaScript",
+        use: "programming language for Azure Function PickARecipe app"
       },
     ]
   },
