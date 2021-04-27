@@ -110,12 +110,12 @@ const inMemoryData = {
     ]
   },
   api_management: {
-    title: "API Management app",
+    title: "API Management App",
     shortDescription:
-      "An Azure API Managment instance that acts as a gateway for Azure Functions and Azure Logic Apps",
+      "An Azure API Management instance that acts as a gateway for Azure Functions and Azure Logic Apps",
     description: `An Azure API Managment instance that acts as a gateway for Azure Functions and Azure Logic Apps. 
-    This API Management example shows how an end user could interact with a single baseurl when making http calls,
-    but behind the scenes they are interacting with several distinct microservices`,
+    This API Management example shows how an end user could interact with a single base URL when making http calls,
+    but behind the scenes they are interacting with several distinct microservices.`,
     separatePage: "/portfolio/api-managment",
     image: APIManagementLogo,
     link: "https://pickoutofhatapi.developer.azure-api.net/apis",
@@ -123,7 +123,7 @@ const inMemoryData = {
     features: [
       "API Management gateway for consumers to interact with",
       "Utilizes API Management API Developer Portal to demonstate API Functionality",
-      "Demonstrates Azure Functions in different languages (python & Javascript) being used with API Management instance",
+      "Demonstrates Azure Functions in different languages (Python & Javascript) being used with API Management instance",
       "Demonstrates Azure Logic App being used with API Management instance",
       "Project uses Azure Logic App to reset Azure Table Storage periodically",
       "Azure Table Storage bindings are used by Azure functions to easily communicate with storage"
@@ -131,7 +131,7 @@ const inMemoryData = {
     technologies: [
       {
         tech: "Azure API Management",
-        use: "For managing APIs, API gateway, and creating/managing Developer portal"
+        use: "For managing APIs, API gateway, and creating/managing the API Management Developer portal"
       },
       {
         tech: "Azure Functions",
@@ -139,7 +139,7 @@ const inMemoryData = {
       },
       {
         tech: "Azure Logic Apps",
-        use: "Used for an API endpoint, and used to periodically clean azure table storage"
+        use: "Used for an API endpoint, and used to periodically clean Azure table storage"
       },
       {
         tech: "Azure Storage",

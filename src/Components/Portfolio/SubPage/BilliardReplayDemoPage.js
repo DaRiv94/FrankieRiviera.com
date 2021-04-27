@@ -81,7 +81,7 @@ class KubernetesDemoPage extends Component {
                     </ul>
 
                     <h5>
-                        Back to <a href="/portfolio">portfolio page</a>
+                        Back to <a href="/portfolio">Portfolio Page</a>
                     </h5>
                 </div>
 

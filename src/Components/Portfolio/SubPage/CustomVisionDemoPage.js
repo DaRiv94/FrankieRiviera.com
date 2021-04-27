@@ -58,7 +58,7 @@ class KubernetesDemoPage extends Component {
                     <p className="repourl">Backend Github Repository can be found <a target="_blank" href="https://github.com/DaRiv94/FGR_Custom_Object_Detection_Backend">Here</a></p>
 
                     <h5>
-                        Back to <a href="/portfolio">portfolio page</a>
+                        Back to <a href="/portfolio">Portfolio Page</a>
                     </h5>
                 </div>
 

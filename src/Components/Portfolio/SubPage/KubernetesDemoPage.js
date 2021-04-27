@@ -125,7 +125,7 @@ class KubernetesDemoPage extends Component {
           Link to demo application can be found here and at the top of this page below the description. <a href={kubernetes_demo.link}><img className="budgetDemoIcon" src={kubernetes_demo.image} />Running Kubernetes Demo</a>
           </h5>
           <h5>
-          Back to <a href="/portfolio">portfolio page</a>
+          Back to <a href="/portfolio">Portfolio Page</a>
           </h5>
         </div>
 
