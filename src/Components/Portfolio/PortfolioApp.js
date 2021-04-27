@@ -119,7 +119,7 @@ class PortfolioApp extends Component {
           </a></h2> 
           }
 
-          {title=="API Management app" && <h2>{title}
+          {title=="API Management App" && <h2>{title}
           <a href="https://www.credly.com/badges/552858cc-5d54-485b-b6d5-a6cba26191df" target="_blank" >
             <img className="mybadge" src={azure_developer_image} alt="Microsoft Certified: Azure Developer Associate" />
           </a>
@@ -155,7 +155,7 @@ class PortfolioApp extends Component {
           }
 
           {title!="FGR Kubernetes Demo" 
-          && title!="API Management app" 
+          && title!="API Management App" 
           && title!="Custom Vision License Plate Detector" 
           && title!="Computer Vision Api Example" 
           && title!="FGR President API" 
