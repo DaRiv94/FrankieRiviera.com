@@ -7,6 +7,7 @@ import HomePage from "./Components/Home/HomePage";
 import AboutPage from "./Components/About/AboutPage";
 import PortfolioPage from './Components/Portfolio/PortfolioPage';
 import KubernetesDemoPage from './Components/Portfolio/SubPage/KubernetesDemoPage';
+import FGRSecureAPIDemoPage from './Components/Portfolio/SubPage/FGRSecureAPIDemoPage';
 import BilliardReplayDemoPage from './Components/Portfolio/SubPage/BilliardReplayDemoPage';
 import CustomVisionDemoPage from './Components/Portfolio/SubPage/CustomVisionDemoPage';
 import APIManagementDemoPage from './Components/Portfolio/SubPage/APIManagementDemoPage';
@@ -31,6 +32,7 @@ class App extends Component {
           <Route exact path="/portfolio/billiard-replay" component={BilliardReplayDemoPage} />
           <Route exact path="/portfolio/custom-vision" component={CustomVisionDemoPage} />
           <Route exact path="/portfolio/api-managment" component={APIManagementDemoPage} />
+          <Route exact path="/portfolio/fgr-secure-api" component={FGRSecureAPIDemoPage} />
           
           <Route component={NotFound} />
           </Switch>
