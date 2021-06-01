@@ -37,6 +37,45 @@ class KubernetesDemoPage extends Component {
           <h5>
             Link to demo application can be found here and at the end of this page.  <a href={kubernetes_demo.link}> <img className="budgetDemoIcon" src={kubernetes_demo.image} />  Running Kubernetes Demo</a>
           </h5>
+          <h2>Overview of Microservice Architecture</h2>
+          <img className="explaination_image" src={OverviewImage} alt="Graphic of microservice layout" />
+          <p>The following image displays the layout of the microservices within the Kubernetes demo.
+          The budget app has a frontend client for interacting with the user. The backend is the gateway to the auth service and the database.
+          The webhook service is hit by the external Plaid API where it stores transaction data in the database and notifies the user via the email service about new transactions, account balances or any other relevant user account info.
+          The backend can also trigger the webhook immediately to get transactions from the Plaid API.
+          To keep demo data light, there is a data clean up CronJob that removes data from the demo application periodically.
+            The email service uses SendGrid to send email notifications. </p>
+          <h2>Overview of Kubernetes Cluster Objects</h2>
+          <img className="explaination_image" src={ClusterDetailsImage} alt="Graphic of microservice layout" />
+          <p>This diagram displays the inner setup of the Kubernetes cluster for the FGR Kubernetes demo.
+          An ingress service using nginx-ingress controller is set up to allow for traffic to access frontend assets, call the backend, and also route to the webhook when the Plaid API notifies the application about new transactions.
+          The base deployments are currently configured for one pod each, but could easily be scaled up to multiple pods if ingress traffic greatly increased.
+          ClusterIP services are used to connect pods across the cluster.
+          The CronJob has no need for a ClusterIP Service since no pods within the cluster need to access it.
+          The Postgres pod connects to a Persistent Volume Claim which is bound to a Persistent Volume which maps data on to the Nodes file system.
+          In a real world production application, your long-term persisting data should not rely on the Node's file system and should use more reliable external data persistence options.
+          The current setup is intended to keep the demo simple and hosting expenses low.  </p>
+          <h2>The following is a list of the repos where the microservices and Kubernetes objects for this demo can be found</h2>
+          <ul>
+            <li>
+              <a href="https://github.com/DaRiv94/fgr-budget-k8s">Kubernetes Objects Repo</a>
+            </li>
+            <li>
+              <a href="https://github.com/DaRiv94/fgr_dynamic_auth">FGR Dynamic Authentication Service Repo</a>
+            </li>
+            <li>
+              <a href="https://github.com/DaRiv94/fgr-budget-backend-v2">Backend Service Repo</a>
+            </li>
+            <li>
+              <a href="https://github.com/DaRiv94/fgr-budget-webhook-v2">Webhook Service Repo</a>
+            </li>
+            <li>
+              <a href="https://github.com/DaRiv94/fgr_budget_email_service">Email Service Repo</a>
+            </li>
+            <li>
+              <a href="https://github.com/DaRiv94/fgr-budget-frontend-v2">Frontend Service Repo</a>
+            </li>
+          </ul>
           <h2>Key features include…</h2>
           <ul>
             <li>
@@ -82,45 +121,8 @@ class KubernetesDemoPage extends Component {
               <strong>Azure Kubernetes Service (AKS)</strong> for cloud hosting
             </li>
           </ul>
-          <h2>The following is a list of the repos where the microservices and Kubernetes objects for this demo can be found</h2>
-          <ul>
-            <li>
-              <a href="https://github.com/DaRiv94/fgr-budget-k8s">Kubernetes Objects Repo</a>
-            </li>
-            <li>
-              <a href="https://github.com/DaRiv94/fgr_dynamic_auth">FGR Dynamic Authentication Service Repo</a>
-            </li>
-            <li>
-              <a href="https://github.com/DaRiv94/fgr-budget-backend-v2">Backend Service Repo</a>
-            </li>
-            <li>
-              <a href="https://github.com/DaRiv94/fgr-budget-webhook-v2">Webhook Service Repo</a>
-            </li>
-            <li>
-              <a href="https://github.com/DaRiv94/fgr_budget_email_service">Email Service Repo</a>
-            </li>
-            <li>
-              <a href="https://github.com/DaRiv94/fgr-budget-frontend-v2">Frontend Service Repo</a>
-            </li>
-          </ul>
-          <h2>Overview of Microservice Architecture</h2>
-          <img className="explaination_image" src={OverviewImage} alt="Graphic of microservice layout" />
-          <p>The following image displays the layout of the microservices within the Kubernetes demo.
-          The budget app has a frontend client for interacting with the user. The backend is the gateway to the auth service and the database.
-          The webhook service is hit by the external Plaid API where it stores transaction data in the database and notifies the user via the email service about new transactions, account balances or any other relevant user account info.
-          The backend can also trigger the webhook immediately to get transactions from the Plaid API.
-          To keep demo data light, there is a data clean up CronJob that removes data from the demo application periodically.
-            The email service uses SendGrid to send email notifications. </p>
-          <h2>Overview of Kubernetes Cluster Objects</h2>
-          <img className="explaination_image" src={ClusterDetailsImage} alt="Graphic of microservice layout" />
-          <p>This diagram displays the inner setup of the Kubernetes cluster for the FGR Kubernetes demo.
-          An ingress service using nginx-ingress controller is set up to allow for traffic to access frontend assets, call the backend, and also route to the webhook when the Plaid API notifies the application about new transactions.
-          The base deployments are currently configured for one pod each, but could easily be scaled up to multiple pods if ingress traffic greatly increased.
-          ClusterIP services are used to connect pods across the cluster.
-          The CronJob has no need for a ClusterIP Service since no pods within the cluster need to access it.
-          The Postgres pod connects to a Persistent Volume Claim which is bound to a Persistent Volume which maps data on to the Nodes file system.
-          In a real world production application, your long-term persisting data should not rely on the Node's file system and should use more reliable external data persistence options.
-          The current setup is intended to keep the demo simple and hosting expenses low.  </p>
+
+          
           <h5>
           Link to demo application can be found here and at the top of this page below the description. <a href={kubernetes_demo.link}><img className="budgetDemoIcon" src={kubernetes_demo.image} />Running Kubernetes Demo</a>
           </h5>

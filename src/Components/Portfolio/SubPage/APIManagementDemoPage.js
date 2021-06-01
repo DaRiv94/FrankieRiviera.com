@@ -34,12 +34,6 @@ class KubernetesDemoPage extends Component {
                     <h5>
                         Link to Developer Portal can be found here.  <a target="_blank" href={api_management.link}> <img className="budgetDemoIcon" src={api_management.image} /> API Management Development Portal</a>
                     </h5>
-                    <strong>Key Features include...</strong>
-                    <ul className="keyFeatures">
-                        {api_management.features.map(feature => {
-                            return <li key={feature} >{feature}</li>;
-                        })}
-                    </ul>
 
                     <h2>What is the demo app? How does it work?</h2>
 
@@ -55,6 +49,12 @@ class KubernetesDemoPage extends Component {
                     <p className="repourl"><strong>JavaScript Function - Boardgame Picker</strong> has a GET endpoint for getting random recipes where both the food type and the url to the recipe is given and a POST endpoint for creating new recipes that can be randomly picked.</p>
                     <p className="repourl"><strong>Logic App - Reset Azure Storage</strong> is used to remove newly added data periodically. Default data will persist.</p>
 
+                    <strong>Key Features include...</strong>
+                    <ul className="keyFeatures">
+                        {api_management.features.map(feature => {
+                            return <li key={feature} >{feature}</li>;
+                        })}
+                    </ul>
 
                     <h2>Source Code</h2>
                     <p className="repourl" >Boardgame Picker Github Repository can be found <a target="_blank" href="https://github.com/DaRiv94/PickOutOfAHatPython">Here</a></p>

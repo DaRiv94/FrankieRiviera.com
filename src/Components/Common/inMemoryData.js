@@ -113,7 +113,7 @@ const inMemoryData = {
     title: "API Management App",
     shortDescription:
       "An Azure API Management instance that acts as a gateway for Azure Functions and Azure Logic Apps",
-    description: `An Azure API Managment instance that acts as a gateway for Azure Functions and Azure Logic Apps. 
+    description: `An Azure API Management instance that acts as a gateway for Azure Functions and Azure Logic Apps. 
     This API Management example shows how an end user could interact with a single base URL when making http calls,
     but behind the scenes they are interacting with several distinct microservices.`,
     separatePage: "/portfolio/api-managment",
@@ -143,7 +143,7 @@ const inMemoryData = {
       },
       {
         tech: "Azure Storage",
-        use: "Used to storage the Azure Functions data"
+        use: "Used to store the Azure Functions data"
       },
       {
         tech: "Python",
@@ -152,6 +152,68 @@ const inMemoryData = {
       {
         tech: "JavaScript",
         use: "programming language for Azure Function PickARecipe app"
+      },
+    ]
+  },
+  fgr_secure_api: {
+    title: "FGR Secure API",
+    shortDescription:
+      "Azure Kubernetes Service cluster is accessed through a secure API Management instance which requires Azure Active Directory B2C for authentication and authorization",
+    description: `Azure Kubernetes Service cluster, Azure Function, and Logic App are accessed through a secure API Management instance. 
+    The API Management instance implements secure policies like validate-jwt to access backend APIS.
+    Access can only be gained to the API Management instance by signing in and or up to a Single Page Application that is configured with Azure Active Directory B2C.`,
+    separatePage: "/portfolio/fgr-secure-api",
+    image: APIManagementLogo,
+    link: "https://dariv94.github.io/fgr-secure-api",
+    repo: "https://dariv94.github.io/fgr-secure-api",
+    features: [
+      "Secure API Management gateway by use of APIM policies",
+      "Demonstrates a Mutual TLS connection to secure communication between API Management and Azure Kuberentes Cluster",
+      "Use of Managed Identities to access Azure Key Vault",
+      "Use of Azure Active Directory B2C for authentication and authorization",
+      "Multiple persistant storage options used including Managed Disc and Azure Table Storage",
+      "Demonstrates the use of different Azure services within an Azure API Management instance"
+    ],
+    technologies: [
+      {
+        tech: "Azure API Management",
+        use: "For secure gateway to backend APIS"
+      },
+      {
+        tech: "Azure Active Directory B2C",
+        use: "For authentication and authorization within Single Page Application"
+      },
+      {
+        tech: "Azure Key Vault",
+        use: "To allow APIM Managed Identity to obtain client certificate for Mutual TLS"
+      },
+      {
+        tech: "Azure Kuberentes Service",
+        use: "For backend APIS"
+      },
+      {
+        tech: "Azure Functions",
+        use: "For backend API"
+      },
+      {
+        tech: "Azure Logic Apps",
+        use: "For backend API"
+      },
+      {
+        tech: "Azure Managed Disc",
+        use: "Used to store data for Azure Kubernetes Service cluster"
+      },
+      {
+        tech: "Azure Storage",
+        use: "Used to store API data for Logic App and Azure Function API"
+      },
+      {
+        tech: "React",
+        use: "Frontend framework for Single Page Application"
+      },
+      {
+        tech: "JavaScript",
+        use: "Programming language for Azure Function, Single Page Application, and container images in AKS"
       },
     ]
   },

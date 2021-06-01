@@ -28,19 +28,18 @@ class KubernetesDemoPage extends Component {
                     <h5>
                         {billiard_replay.description}
                     </h5>
-                    <strong>Key Features include...</strong>
-                    <ul className="keyFeatures">
-                        {billiard_replay.features.map(feature => {
-                            return <li key={feature} >{feature}</li>;
-                        })}
-                    </ul>
-
                     <h5>
                         Billiard Replay Video Demo
                     </h5>
                     <div className="DivBilliardReplayVideoDemo" >
                         <iframe title="BilliardReplayVideoDemo" className="BilliardReplayVideoDemo" src="https://www.youtube.com/embed/mPahZvnc8dI" ></iframe>
                     </div>
+                    <strong>Key Features include...</strong>
+                    <ul className="keyFeatures">
+                        {billiard_replay.features.map(feature => {
+                            return <li key={feature} >{feature}</li>;
+                        })}
+                    </ul>
 
                     <h2>Billiard Replay Info Graphic</h2>
                     <img className="explaination_image" src={BilliardReplayInfoDiagram} alt="Info Graphic of Billiard Replay app" />
@@ -53,25 +52,25 @@ class KubernetesDemoPage extends Component {
                             When a video is captured, the current file will be updated to the captured video.
                         </li>
                         <li>
-                            <strong>3.</strong> Quickly capture preset length videos. 
+                            <strong>3.</strong> Quickly capture preset length videos.
                             When Billiard shots are made, the quick grab options provide a user
-                            with common video capture lengths so they can quickly capture the shot(s) 
+                            with common video capture lengths so they can quickly capture the shot(s)
                             that were made at the desired length.
                         </li>
                         <li>
-                            <strong>4. </strong> Opens a modal to input and save new filenames. 
+                            <strong>4. </strong> Opens a modal to input and save new filenames.
                             This is helpful so the user can more meaningfully identify a video.
                         </li>
                         <li>
-                            <strong>5. </strong> Opens a file dialog to select previously saved video files. 
+                            <strong>5. </strong> Opens a file dialog to select previously saved video files.
                             A selected video will update the displayed video file (see 2.) and can be emailed. (see 6.)
                         </li>
                         <li>
                             <strong>6. </strong> Opens a modal to input email and send a video.
-                            This allows users to receive captured videos on any device. 
+                            This allows users to receive captured videos on any device.
                         </li>
                         <li>
-                            <strong>7. </strong> Close the program. 
+                            <strong>7. </strong> Close the program.
                             Both this button and selecting the X at the top right of the window will close the program properly
                         </li>
                         <li>
