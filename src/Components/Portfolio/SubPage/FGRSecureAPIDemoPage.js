@@ -24,7 +24,7 @@ class FGRSecureAPIDemoPage extends Component {
     return (
       <div className="portfolio-page-main-div container-fluid">
         <div className="container portfolioDivHead">
-          <h2>FGR Kubernetes Demo</h2>
+          <h2>FGR Secure API</h2>
           <h5>
             This Kubernetes demo demonstrates my proficiency with Containerization,
             Kubernetes, and the building of full-scale applications from scratch using a microservice architecture.
