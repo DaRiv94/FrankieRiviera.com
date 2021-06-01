@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "6709ea8218a778102e12",
+    "revision": "608ab7888fd1235382b0",
     "url": "/static/css/main.9cc2064c.chunk.css"
   },
   {
-    "revision": "6709ea8218a778102e12",
-    "url": "/static/js/main.cf6ec00e.chunk.js"
+    "revision": "608ab7888fd1235382b0",
+    "url": "/static/js/main.0a15a9de.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "4afd2a74a259cdfd091b",
+    "revision": "24095ded38d03342f2c4",
     "url": "/static/css/2.5785b1b5.chunk.css"
   },
   {
-    "revision": "4afd2a74a259cdfd091b",
-    "url": "/static/js/2.45577e74.chunk.js"
+    "revision": "24095ded38d03342f2c4",
+    "url": "/static/js/2.8716ef14.chunk.js"
   },
   {
     "revision": "506096df78ed5c3d27b461eef74eee61",
@@ -32,12 +32,16 @@ self.__precacheManifest = [
     "url": "/static/media/FGR_kubernetes_demo_overview.285f0c9e.png"
   },
   {
-    "revision": "a3e0ff0935f24befd1d65c11f9eba050",
-    "url": "/static/media/Square_large.a3e0ff09.jpg"
+    "revision": "df91ecd87bb92e3f1ea0a96d8263a0da",
+    "url": "/static/media/detailed_fgr_kubernetes_demo.df91ecd8.png"
   },
   {
     "revision": "99ab862ea5ffedb7d320b5f6a6cc154f",
     "url": "/static/media/ckad_from_cncfsite.99ab862e.png"
+  },
+  {
+    "revision": "a3e0ff0935f24befd1d65c11f9eba050",
+    "url": "/static/media/Square_large.a3e0ff09.jpg"
   },
   {
     "revision": "9dc4293639c7d2e0cfac7281771ce1b3",
@@ -76,8 +80,8 @@ self.__precacheManifest = [
     "url": "/static/media/FGR_AI.f94a54fd.png"
   },
   {
-    "revision": "df91ecd87bb92e3f1ea0a96d8263a0da",
-    "url": "/static/media/detailed_fgr_kubernetes_demo.df91ecd8.png"
+    "revision": "d2ba839a9403d575a0806dc2a580608d",
+    "url": "/static/media/fgr-secure-api-architecture.d2ba839a.png"
   },
   {
     "revision": "957f53a2e28406c6530f8075ac5a4626",
@@ -96,7 +100,7 @@ self.__precacheManifest = [
     "url": "/static/media/CityOfDetroit.8c6a8d87.jpg"
   },
   {
-    "revision": "b14239a47bac9217a7aca4a02a6cd455",
+    "revision": "fd13c33ee979289ecde6b1461399e9ba",
     "url": "/index.html"
   }
 ];
