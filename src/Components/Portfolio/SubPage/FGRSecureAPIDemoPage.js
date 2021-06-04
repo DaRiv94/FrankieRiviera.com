@@ -6,7 +6,7 @@ import "../Portfolio.css";
 import inMemoryData from "../../Common/inMemoryData";
 // import OverviewImage from "../../../images/FGR_kubernetes_demo_overview.png"
 import ClusterDetailsImage from "../../../images/detailed_fgr_kubernetes_demo.png"
-import architecturediagram from "../../../images/fgr-secure-api-architecture.png"
+import architecturediagram from "../../../images/fgr-secure-api-architecture_with_acr.png"
 
 class FGRSecureAPIDemoPage extends Component {
   constructor(props) {
@@ -38,7 +38,7 @@ class FGRSecureAPIDemoPage extends Component {
           Mutual TLS is used to secure communication between API Management and the AKS cluster.
           API Management obtains a client certifate from azure key vault in order to communicate with the AKS cluster.
           The AKS cluster contains its server certifate in a Kubernetes Secret that is used by the Ingress Resource when traffic first arrives at the Azure Load Balancer.
-          Data is persisted outside the AKS cluster using an Azure Managed Disc.
+          Data is persisted outside the AKS cluster using an Azure Managed Disc. Container images are pulled from an Azure Container Registry instance outside the kubernetes cluster.
           </p>
           <strong>Key Features include...</strong>
           <ul className="keyFeatures">

@@ -188,6 +188,10 @@ const inMemoryData = {
         use: "To allow APIM Managed Identity to obtain client certificate for Mutual TLS"
       },
       {
+        tech: "Azure Container Registry",
+        use: "To store container images and provide images when AKS pulls them into cluster pods."
+      },
+      {
         tech: "Azure Kuberentes Service",
         use: "For backend APIS"
       },
