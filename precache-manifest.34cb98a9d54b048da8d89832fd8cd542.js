@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "513ed7dcdbe2d966796d",
+    "revision": "3850232fc58551ae3666",
     "url": "/static/css/main.9cc2064c.chunk.css"
   },
   {
-    "revision": "513ed7dcdbe2d966796d",
-    "url": "/static/js/main.6d6f58e3.chunk.js"
+    "revision": "3850232fc58551ae3666",
+    "url": "/static/js/main.db601360.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -80,8 +80,8 @@ self.__precacheManifest = [
     "url": "/static/media/FGR_AI.f94a54fd.png"
   },
   {
-    "revision": "d2ba839a9403d575a0806dc2a580608d",
-    "url": "/static/media/fgr-secure-api-architecture.d2ba839a.png"
+    "revision": "0928f209ae73e8a5e0b0eae1cfa32f1b",
+    "url": "/static/media/fgr-secure-api-architecture_with_acr.0928f209.png"
   },
   {
     "revision": "957f53a2e28406c6530f8075ac5a4626",
@@ -100,7 +100,7 @@ self.__precacheManifest = [
     "url": "/static/media/CityOfDetroit.8c6a8d87.jpg"
   },
   {
-    "revision": "d0443c3303b84200dcef25f9ee70e10d",
+    "revision": "9145665f88ac6c233ed1268734ad635c",
     "url": "/index.html"
   }
 ];
