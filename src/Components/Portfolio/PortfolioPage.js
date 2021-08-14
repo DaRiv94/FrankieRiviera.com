@@ -68,10 +68,10 @@ class PortfolioPage extends Component {
               <a href={"#" + custom_vision_license_plate_detector.title}>{custom_vision_license_plate_detector.title}</a> -{" "}
               {custom_vision_license_plate_detector.shortDescription}
             </li>
-            <li>
+            {/* <li>
               <a href={"#" + api_management.title}>{api_management.title}</a> -{" "}
               {api_management.shortDescription}
-            </li>
+            </li> */}
             <li>
               <a href={"#" + billiard_replay.title}>{billiard_replay.title}</a> -{" "}
               {billiard_replay.shortDescription}
@@ -117,10 +117,10 @@ class PortfolioPage extends Component {
         <PortolioApp {...kubernetes_demo} bgColor="#dbdbdb"/>
         <PortolioApp {...fgr_secure_api} />
         <PortolioApp {...custom_vision_license_plate_detector} bgColor="#dbdbdb" />
-        <PortolioApp {...api_management}  />
-        <PortolioApp {...billiard_replay} bgColor="#dbdbdb"/>
-        <PortolioApp {...fgr_dynamic_auth_service}  />
-        <PortolioApp {...computerVisionApiExample}  bgColor="#dbdbdb"/>
+        {/* <PortolioApp {...api_management}  /> */}
+        <PortolioApp {...billiard_replay} />
+        <PortolioApp {...fgr_dynamic_auth_service} bgColor="#dbdbdb" />
+        <PortolioApp {...computerVisionApiExample}  />
         {/* <PortolioApp
           // title={gighub.title}
           // description={gighub.description}
@@ -132,10 +132,10 @@ class PortfolioPage extends Component {
         />
         <PortolioApp {...taskMaster} bgColor="#dbdbdb"/> */}
         {/* <PortolioApp {...geolocation} /> */}
-        <PortolioApp {...fgrApiDocs}  />
-        <PortolioApp {...vidlyapi} bgColor="#dbdbdb"/>
-        <PortolioApp {...fgrPresidentApi}  />
-        <PortolioApp {...fgrUsColonyApi} bgColor="#dbdbdb"/>
+        <PortolioApp {...fgrApiDocs} bgColor="#dbdbdb" />
+        <PortolioApp {...vidlyapi} />
+        <PortolioApp {...fgrPresidentApi} bgColor="#dbdbdb" />
+        <PortolioApp {...fgrUsColonyApi} />
       </div>
     );
   }
