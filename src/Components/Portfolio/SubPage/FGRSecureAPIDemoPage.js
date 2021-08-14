@@ -28,9 +28,13 @@ class FGRSecureAPIDemoPage extends Component {
           <h5>
             {fgr_secure_api.description}
           </h5>
+          <h2>Access to Demo</h2>
           <h5>
-            Link to demo application can be found <a target="_blank" href={fgr_secure_api.link}>Here</a>
+            Ask me about getting access to the FGR Secure API Demo at <a href="mailto:FrankGRiviera@outlook.com">FrankGRiviera@outlook.com</a>. I will get back to you with a link to check it out!
           </h5>
+          {/* <h5>
+            Link to demo application can be found <a target="_blank" href={fgr_secure_api.link}>Here</a>
+          </h5> */}
           <h2>Overview of Microservice Architecture</h2>
           <img className="explaination_image" src={architecturediagram} alt="Graphic of microservice architecture" />
           <p>A User signs in with an existing Microsoft account, or signs up using an email. This is done using Azure Active Directory B2C User Flows. Once authenticated,
