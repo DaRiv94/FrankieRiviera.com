@@ -100,7 +100,7 @@ self.__precacheManifest = [
     "url": "/static/media/CityOfDetroit.8c6a8d87.jpg"
   },
   {
-    "revision": "1c372ddef55f6a298c6de73064459c2a",
+    "revision": "bef06570b3b7a1f036d3d4ceb11067a0",
     "url": "/index.html"
   }
 ];
