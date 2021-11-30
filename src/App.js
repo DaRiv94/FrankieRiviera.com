@@ -12,6 +12,7 @@ import BilliardReplayDemoPage from './Components/Portfolio/SubPage/BilliardRepla
 import CustomVisionDemoPage from './Components/Portfolio/SubPage/CustomVisionDemoPage';
 import APIManagementDemoPage from './Components/Portfolio/SubPage/APIManagementDemoPage';
 import NotFound from "./Components/Common/NotFound";
+import PrivacyPolicy from "./Components/Common/PrivacyPolicy";
 
 
 
@@ -34,6 +35,7 @@ class App extends Component {
           <Route exact path="/portfolio/api-managment" component={APIManagementDemoPage} />
           <Route exact path="/portfolio/fgr-secure-api" component={FGRSecureAPIDemoPage} />
           
+          <Route exact path="/privacypolicy" component={PrivacyPolicy} />
           <Route component={NotFound} />
           </Switch>
           
