@@ -8,6 +8,7 @@ function PrivacyPolicy() {
                 <h1>Device Recommendations</h1>
 
                 <p>Web cam Razer Kiyp : <a href="https://amzn.to/3ODkonZ">https://amzn.to/3ODkonZ</a></p>
+                <p>Monitor stand : <a href="https://amzn.to/3vh1zj6">https://amzn.to/3vh1zj6</a></p>
 
                 
             </div>
