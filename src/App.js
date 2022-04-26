@@ -13,6 +13,7 @@ import CustomVisionDemoPage from './Components/Portfolio/SubPage/CustomVisionDem
 import APIManagementDemoPage from './Components/Portfolio/SubPage/APIManagementDemoPage';
 import NotFound from "./Components/Common/NotFound";
 import PrivacyPolicy from "./Components/Common/PrivacyPolicy";
+import DeviceRecommendations from "./Components/Common/DeviceRecommendations";
 
 
 
@@ -35,7 +36,9 @@ class App extends Component {
           <Route exact path="/portfolio/api-managment" component={APIManagementDemoPage} />
           <Route exact path="/portfolio/fgr-secure-api" component={FGRSecureAPIDemoPage} />
           
+          
           <Route exact path="/privacypolicy" component={PrivacyPolicy} />
+          <Route exact path="/devicerecommendations" component={DeviceRecommendations} />
           <Route component={NotFound} />
           </Switch>
           
