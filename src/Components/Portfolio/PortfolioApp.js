@@ -91,7 +91,7 @@ class PortfolioApp extends Component {
       image = "https://via.placeholder.com/300",
       separatePage
     } = this.props;
-//https://www.youracclaim.com/badges/fe571b34-07dd-4298-915c-32dca08d8e5a
+    //https://www.youracclaim.com/badges/fe571b34-07dd-4298-915c-32dca08d8e5a
     return (
       <div
         id={title}
@@ -99,7 +99,7 @@ class PortfolioApp extends Component {
         className="portfolio-app-row row"
       >
         <div className="col-12 offset-sm-2 offset-md-1 col-md-4">
-          <a className="app-pic-link" href={separatePage ? separatePage: link} target={separatePage ? "": "_blank"} rel="noopener noreferrer">
+          <a className="app-pic-link" href={separatePage ? separatePage : link} target={separatePage ? "" : "_blank"} rel="noopener noreferrer">
             <img className="app-pic" src={image} alt={title} />
           </a>
         </div>
@@ -107,72 +107,82 @@ class PortfolioApp extends Component {
         <div className="app-info col-12 col-md-6">
           {this.appButtons()}
 
-          {title=="FGR Kubernetes Demo" && <h2>{title}
-          <a href="https://www.youracclaim.com/badges/fe571b34-07dd-4298-915c-32dca08d8e5a" target="_blank" >
-            <img className="mybadge" src={ckad_image} alt="Certified Kubernetes Application Develper Badge" />
-          </a>
-          <a href="https://www.youracclaim.com/badges/7a1f9015-671f-420a-a5cc-b537818b2207" target="_blank" >
-            <img className="mybadge" src={terraform_image} alt="HashiCorp Certified: Terraform Associate" />
-          </a>
-          <a href="https://www.credly.com/badges/552858cc-5d54-485b-b6d5-a6cba26191df" target="_blank" >
-            <img className="mybadge" src={azure_developer_image} alt="Microsoft Certified: Azure Developer Associate" />
-          </a></h2> 
+          {title == "FGR Kubernetes Demo" && <h2>{title}
+            <a href="https://www.youracclaim.com/badges/fe571b34-07dd-4298-915c-32dca08d8e5a" target="_blank" >
+              <img className="mybadge" src={ckad_image} alt="Certified Kubernetes Application Develper Badge" />
+            </a>
+            <a href="https://www.youracclaim.com/badges/7a1f9015-671f-420a-a5cc-b537818b2207" target="_blank" >
+              <img className="mybadge" src={terraform_image} alt="HashiCorp Certified: Terraform Associate" />
+            </a>
+            <a href="https://www.credly.com/badges/552858cc-5d54-485b-b6d5-a6cba26191df" target="_blank" >
+              <img className="mybadge" src={azure_developer_image} alt="Microsoft Certified: Azure Developer Associate" />
+            </a></h2>
           }
 
-          {title=="FGR Secure API" && <h2>{title}
-          <a href="https://www.youracclaim.com/badges/fe571b34-07dd-4298-915c-32dca08d8e5a" target="_blank" >
-            <img className="mybadge" src={ckad_image} alt="Certified Kubernetes Application Develper Badge" />
-          </a>
-          <a href="https://www.credly.com/badges/552858cc-5d54-485b-b6d5-a6cba26191df" target="_blank" >
-            <img className="mybadge" src={azure_developer_image} alt="Microsoft Certified: Azure Developer Associate" />
-          </a>
-          </h2> 
+          {title == "FGR Container Apps Demo" && <h2>{title}
+            <a href="https://www.credly.com/badges/552858cc-5d54-485b-b6d5-a6cba26191df" target="_blank" >
+              <img className="mybadge" src={azure_developer_image} alt="Microsoft Certified: Azure Developer Associate" />
+            </a>
+          </h2>
           }
 
-          {title=="API Management App" && <h2>{title}
-          <a href="https://www.credly.com/badges/552858cc-5d54-485b-b6d5-a6cba26191df" target="_blank" >
-            <img className="mybadge" src={azure_developer_image} alt="Microsoft Certified: Azure Developer Associate" />
-          </a>
-          </h2> 
+          {title == "FGR Secure API" && <h2>{title}
+            <a href="https://www.youracclaim.com/badges/fe571b34-07dd-4298-915c-32dca08d8e5a" target="_blank" >
+              <img className="mybadge" src={ckad_image} alt="Certified Kubernetes Application Develper Badge" />
+            </a>
+            <a href="https://www.credly.com/badges/552858cc-5d54-485b-b6d5-a6cba26191df" target="_blank" >
+              <img className="mybadge" src={azure_developer_image} alt="Microsoft Certified: Azure Developer Associate" />
+            </a>
+          </h2>
           }
 
-          {title=="Custom Vision License Plate Detector" && <h2>{title}
-          <a href="https://www.credly.com/badges/552858cc-5d54-485b-b6d5-a6cba26191df" target="_blank" >
-            <img className="mybadge" src={azure_developer_image} alt="Microsoft Certified: Azure Developer Associate" />
-          </a>
-          </h2> 
+          {title == "API Management App" && <h2>{title}
+            <a href="https://www.credly.com/badges/552858cc-5d54-485b-b6d5-a6cba26191df" target="_blank" >
+              <img className="mybadge" src={azure_developer_image} alt="Microsoft Certified: Azure Developer Associate" />
+            </a>
+          </h2>
           }
 
-          {title=="Computer Vision Api Example" && <h2>{title}
-          <a href="https://www.credly.com/badges/552858cc-5d54-485b-b6d5-a6cba26191df" target="_blank" >
-            <img className="mybadge" src={azure_developer_image} alt="Microsoft Certified: Azure Developer Associate" />
-          </a>
-          </h2> 
+          {title == "Custom Vision License Plate Detector" && <h2>{title}
+            <a href="https://www.credly.com/badges/552858cc-5d54-485b-b6d5-a6cba26191df" target="_blank" >
+              <img className="mybadge" src={azure_developer_image} alt="Microsoft Certified: Azure Developer Associate" />
+            </a>
+          </h2>
           }
 
-          {title=="FGR President API" && <h2>{title}
-          <a href="https://www.credly.com/badges/552858cc-5d54-485b-b6d5-a6cba26191df" target="_blank" >
-            <img className="mybadge" src={azure_developer_image} alt="Microsoft Certified: Azure Developer Associate" />
-          </a>
-          </h2> 
+          {title == "Computer Vision Api Example" && <h2>{title}
+            <a href="https://www.credly.com/badges/552858cc-5d54-485b-b6d5-a6cba26191df" target="_blank" >
+              <img className="mybadge" src={azure_developer_image} alt="Microsoft Certified: Azure Developer Associate" />
+            </a>
+          </h2>
           }
 
-          {title=="FGR US Colony API" && <h2>{title}
-          <a href="https://www.credly.com/badges/552858cc-5d54-485b-b6d5-a6cba26191df" target="_blank" >
-            <img className="mybadge" src={azure_developer_image} alt="Microsoft Certified: Azure Developer Associate" />
-          </a>
-          </h2> 
+
+
+          {title == "FGR President API" && <h2>{title}
+            <a href="https://www.credly.com/badges/552858cc-5d54-485b-b6d5-a6cba26191df" target="_blank" >
+              <img className="mybadge" src={azure_developer_image} alt="Microsoft Certified: Azure Developer Associate" />
+            </a>
+          </h2>
           }
 
-          {title!="FGR Kubernetes Demo" 
-          && title!="FGR Secure API" 
-          && title!="API Management App" 
-          && title!="Custom Vision License Plate Detector" 
-          && title!="Computer Vision Api Example" 
-          && title!="FGR President API" 
-          && title!="FGR US Colony API" 
-          && <h2>{title}</h2>}
-          
+          {title == "FGR US Colony API" && <h2>{title}
+            <a href="https://www.credly.com/badges/552858cc-5d54-485b-b6d5-a6cba26191df" target="_blank" >
+              <img className="mybadge" src={azure_developer_image} alt="Microsoft Certified: Azure Developer Associate" />
+            </a>
+          </h2>
+          }
+
+          {title != "FGR Kubernetes Demo"
+            && title != "FGR Secure API"
+            && title != "FGR Container Apps Demo"
+            && title != "API Management App"
+            && title != "Custom Vision License Plate Detector"
+            && title != "Computer Vision Api Example"
+            && title != "FGR President API"
+            && title != "FGR US Colony API"
+            && <h2>{title}</h2>}
+
           {this.appDetails()}
         </div>
       </div>
