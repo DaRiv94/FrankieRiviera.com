@@ -24,6 +24,7 @@ class PortfolioPage extends Component {
       custom_vision_license_plate_detector: inMemoryData.custom_vision_license_plate_detector,
       api_management: inMemoryData.api_management,
       fgr_secure_api: inMemoryData.fgr_secure_api,
+      containerapps_demo: inMemoryData.containerapps_demo,
       
     };
   }
@@ -43,7 +44,8 @@ class PortfolioPage extends Component {
       billiard_replay,
       custom_vision_license_plate_detector,
       api_management,
-      fgr_secure_api
+      fgr_secure_api,
+      containerapps_demo
     } = this.state;
     return (
       <div className="portfolio-page-main-div container-fluid">
@@ -59,6 +61,10 @@ class PortfolioPage extends Component {
             <li>
               <a href={"#" + kubernetes_demo.title}>{kubernetes_demo.title}</a> -{" "}
               {kubernetes_demo.shortDescription}
+            </li>
+            <li>
+              <a href={"#" + containerapps_demo.title}>{containerapps_demo.title}</a> -{" "}
+              {containerapps_demo.shortDescription}
             </li>
             <li>
               <a href={"#" + fgr_secure_api.title}>{fgr_secure_api.title}</a> -{" "}
@@ -115,12 +121,13 @@ class PortfolioPage extends Component {
           </ul>
         </div>
         <PortolioApp {...kubernetes_demo} bgColor="#dbdbdb"/>
-        <PortolioApp {...fgr_secure_api} />
-        <PortolioApp {...custom_vision_license_plate_detector} bgColor="#dbdbdb" />
+        <PortolioApp {...containerapps_demo} />
+        <PortolioApp {...fgr_secure_api} bgColor="#dbdbdb" />
+        <PortolioApp {...custom_vision_license_plate_detector} />
         {/* <PortolioApp {...api_management}  /> */}
-        <PortolioApp {...billiard_replay} />
-        <PortolioApp {...fgr_dynamic_auth_service} bgColor="#dbdbdb" />
-        <PortolioApp {...computerVisionApiExample}  />
+        <PortolioApp {...billiard_replay}  bgColor="#dbdbdb"/>
+        <PortolioApp {...fgr_dynamic_auth_service} />
+        <PortolioApp {...computerVisionApiExample}  bgColor="#dbdbdb"/>
         {/* <PortolioApp
           // title={gighub.title}
           // description={gighub.description}
@@ -132,10 +139,10 @@ class PortfolioPage extends Component {
         />
         <PortolioApp {...taskMaster} bgColor="#dbdbdb"/> */}
         {/* <PortolioApp {...geolocation} /> */}
-        <PortolioApp {...fgrApiDocs} bgColor="#dbdbdb" />
-        <PortolioApp {...vidlyapi} />
-        <PortolioApp {...fgrPresidentApi} bgColor="#dbdbdb" />
-        <PortolioApp {...fgrUsColonyApi} />
+        <PortolioApp {...fgrApiDocs}  />
+        <PortolioApp {...vidlyapi} bgColor="#dbdbdb"/>
+        <PortolioApp {...fgrPresidentApi} />
+        <PortolioApp {...fgrUsColonyApi} bgColor="#dbdbdb"/>
       </div>
     );
   }

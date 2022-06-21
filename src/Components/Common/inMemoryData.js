@@ -10,6 +10,7 @@ import IdentityUserImage from "../../images/user_image_transparentbg.png";
 import RaspberryPiImage from "../../images/raspberry_pi_logo.png"
 import FGR_AI_Image from "../../images/FGR_AI.png"
 import APIManagementLogo from "../../images/apiManagementLogo.png"
+import AzureContainerAppsLogo from "../../images/AzureContainerAppIcon.png"
 
 const inMemoryData = {
 
@@ -63,6 +64,54 @@ const inMemoryData = {
       {
         tech: "Terraform",
         use: "For Infastructure as code"
+      },
+      {
+        tech: "Plaid API",
+        use: "For connecting bank accounts in demo"
+      },
+      { tech: "SendGrid API", use: "For email notifications in demo." }
+    ]
+  },
+  containerapps_demo: {
+    title: "FGR Container Apps Demo",
+    shortDescription:
+      "Microservice architected application deployed with infrastructure as code using Bicep to Microsoft Azure’s new Azure Container Apps offering.",
+    description: `Microservice architected application deployed with infrastructure as code using Bicep to Microsoft Azure’s new Azure Container Apps offering.
+    This Container Apps deployment demonstrates my proficiency with containerization, Azure’s Infrastructure as Code Domain Specific Language Bicep, and use of Azure’s serverless container offering Azure Container Apps. The application use case follows my previous Kubernetes deployment of a personal budget app that connects to bank accounts and allows users to track transactions, and manage budgets.`,
+    separatePage: "/portfolio/azure-container-apps-deployment",
+    image: AzureContainerAppsLogo,
+    link: "http://kubernetes-demo.frankieriviera.com",
+    repo: null,
+    features: [
+      "Uses Azure Container Apps to allow for serverless container orchestration",
+      "Uses Bicep to quickly spin up and spin down cloud resources",
+      "Microservice architecture allows for ideal separation of concerns",
+      "App Demo allows users to create accounts, connect to bank accounts, and manage budgets"
+    ],
+    technologies: [
+      {
+        tech: "Azure Container Apps",
+        use: "Used for serverless container orchestration and cloud hosting"
+      },
+      {
+        tech: "Docker",
+        use: "For container runtime during development"
+      },
+      {
+        tech: "Bicep",
+        use: "For Infastructure as code"
+      },
+      {
+        tech: "Node.js",
+        use: "For backend APIs"
+      },
+      {
+        tech: "React",
+        use: "For frontend UI"
+      },
+      {
+        tech: "Postgres",
+        use: "For data persistenace"
       },
       {
         tech: "Plaid API",
