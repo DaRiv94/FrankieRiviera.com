@@ -80,7 +80,7 @@ const inMemoryData = {
     This Container Apps deployment demonstrates my proficiency with containerization, Azure’s Infrastructure as Code Domain Specific Language Bicep, and use of Azure’s serverless container offering Azure Container Apps. The application use case follows my previous Kubernetes deployment of a personal budget app that connects to bank accounts and allows users to track transactions, and manage budgets.`,
     separatePage: "/portfolio/azure-container-apps-deployment",
     image: AzureContainerAppsLogo,
-    link: "https://frontend-app.icydesert-27f7b1fb.eastus.azurecontainerapps.io/",
+    link: "https://frontend-service.livelyrock-ade151d5.eastus.azurecontainerapps.io",
     repo: null,
     features: [
       "Uses Azure Container Apps to allow for serverless container orchestration",
