@@ -1,35 +1,35 @@
 self.__precacheManifest = [
   {
-    "revision": "8d90768c37ac6b0afbc8",
+    "revision": "96a08c04e546d7575f1c",
     "url": "/static/css/main.9cf79597.chunk.css"
   },
   {
-    "revision": "8d90768c37ac6b0afbc8",
-    "url": "/static/js/main.d2cd6589.chunk.js"
+    "revision": "96a08c04e546d7575f1c",
+    "url": "/static/js/main.63d087de.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "9ae6eeaa81f6678ef1f1",
+    "revision": "5b137a7ba620fa2d9356",
     "url": "/static/css/2.17691d79.chunk.css"
   },
   {
-    "revision": "9ae6eeaa81f6678ef1f1",
-    "url": "/static/js/2.8716ef14.chunk.js"
+    "revision": "5b137a7ba620fa2d9356",
+    "url": "/static/js/2.8a614477.chunk.js"
   },
   {
     "revision": "506096df78ed5c3d27b461eef74eee61",
     "url": "/static/media/azure-developer-associate-600x600.506096df.png"
   },
   {
-    "revision": "60ddb9c7194d674db45ef0df21b426cc",
-    "url": "/static/media/FGR_API_Transparent.60ddb9c7.png"
-  },
-  {
     "revision": "285f0c9e065788a263f06d40f4ac4c23",
     "url": "/static/media/FGR_kubernetes_demo_overview.285f0c9e.png"
+  },
+  {
+    "revision": "60ddb9c7194d674db45ef0df21b426cc",
+    "url": "/static/media/FGR_API_Transparent.60ddb9c7.png"
   },
   {
     "revision": "df91ecd87bb92e3f1ea0a96d8263a0da",
@@ -80,6 +80,14 @@ self.__precacheManifest = [
     "url": "/static/media/FGR_AI.f94a54fd.png"
   },
   {
+    "revision": "4161556b2dd8bc2795707a0a1b3646d3",
+    "url": "/static/media/AzureContainerAppIcon.4161556b.png"
+  },
+  {
+    "revision": "3851e85f20c985facf39ad352931867f",
+    "url": "/static/media/fgr_budgetapp_aca_deployment.3851e85f.png"
+  },
+  {
     "revision": "0928f209ae73e8a5e0b0eae1cfa32f1b",
     "url": "/static/media/fgr-secure-api-architecture_with_acr.0928f209.png"
   },
@@ -100,7 +108,7 @@ self.__precacheManifest = [
     "url": "/static/media/CityOfDetroit.8c6a8d87.jpg"
   },
   {
-    "revision": "cb51649d6cdcd7aec1303f6e447f95f3",
+    "revision": "266928bf0580bb47edbe9473dbaf0cc0",
     "url": "/index.html"
   }
 ];
