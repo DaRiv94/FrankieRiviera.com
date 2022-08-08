@@ -31,14 +31,14 @@ class KubernetesDemoPage extends Component {
             and manage budgets.
           </h5>
 
-          {/* <h2>Access to Demo</h2>
+          <h2>Access to Demo</h2>
           <h5>
             Ask me about getting access to the FGR Container Apps Demo at <a href="mailto:FrankGRiviera@outlook.com">FrankGRiviera@outlook.com</a>. I will get back to you with a link to check it out!
-          </h5> */}
-          <h2>Check out the running demo!</h2>
+          </h5>
+          {/* <h2>Check out the running demo!</h2>
           <h5>
             Link to demo application can be found here <a href={containerapps_demo.link}> <img className="budgetDemoIcon" src={containerapps_demo.image} />  Running Azure Container Apps Demo</a>
-          </h5>
+          </h5> */}
           <h2>Overview of Microservice Architecture</h2>
           <img className="explaination_image" src={DeploymentDetails} alt="Graphic of microservice layout" />
           <p>The diagram above displays the architecture setup of my FGR budget app deployment using Azure Container Apps. 
