@@ -29,10 +29,14 @@ class KubernetesDemoPage extends Component {
                         {custom_vision_license_plate_detector.description}
                     </h5>
 
-                    <h2>Check out the running demo!</h2>
+                    <h2>Access to Demo</h2>
+                    <h5>
+                        Ask me about getting access to the FGR Custom Vision License Plate Detector Demo at <a href="mailto:FrankGRiviera@outlook.com">FrankGRiviera@outlook.com</a>. I will get back to you with a link to check it out!
+                    </h5>
+                    {/* <h2>Check out the running demo!</h2>
                     <h5>
                         Link to demo application can be found here.  <a target="_blank" href={custom_vision_license_plate_detector.link}> <img className="budgetDemoIcon" src={custom_vision_license_plate_detector.image} />  Running FGR Custom Vision License Plate Detector</a>
-                    </h5>
+                    </h5> */}
                     <strong>Key Features include...</strong>
                     <ul className="keyFeatures">
                         {custom_vision_license_plate_detector.features.map(feature => {
