@@ -102,7 +102,7 @@ class PortfolioPage extends Component {
               <a href={"#" + geolocation.title}>{geolocation.title}</a> -{" "}
               {geolocation.shortDescription}
             </li> */}
-            <li>
+            {/* <li>
               <a href={"#" + fgrApiDocs.title}>{fgrApiDocs.title}</a> -{" "}
               {fgrApiDocs.shortDescription}
             </li>
@@ -117,7 +117,7 @@ class PortfolioPage extends Component {
             <li>
               <a href={"#" + fgrUsColonyApi.title}>{fgrUsColonyApi.title}</a> -{" "}
               {fgrUsColonyApi.shortDescription}
-            </li>
+            </li> */}
           </ul>
         </div>
         <PortolioApp {...kubernetes_demo} bgColor="#dbdbdb"/>
@@ -139,10 +139,10 @@ class PortfolioPage extends Component {
         />
         <PortolioApp {...taskMaster} bgColor="#dbdbdb"/> */}
         {/* <PortolioApp {...geolocation} /> */}
-        <PortolioApp {...fgrApiDocs}  />
+        {/* <PortolioApp {...fgrApiDocs}  />
         <PortolioApp {...vidlyapi} bgColor="#dbdbdb"/>
         <PortolioApp {...fgrPresidentApi} />
-        <PortolioApp {...fgrUsColonyApi} bgColor="#dbdbdb"/>
+        <PortolioApp {...fgrUsColonyApi} bgColor="#dbdbdb"/> */}
       </div>
     );
   }
