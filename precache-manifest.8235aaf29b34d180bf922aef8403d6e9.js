@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "1e1d172c0cc7aefdde2b",
+    "revision": "b65e08cb9ec0ac3ee4cd",
     "url": "/static/css/main.9cf79597.chunk.css"
   },
   {
-    "revision": "1e1d172c0cc7aefdde2b",
-    "url": "/static/js/main.de9d285c.chunk.js"
+    "revision": "b65e08cb9ec0ac3ee4cd",
+    "url": "/static/js/main.be91b69e.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -108,7 +108,7 @@ self.__precacheManifest = [
     "url": "/static/media/CityOfDetroit.8c6a8d87.jpg"
   },
   {
-    "revision": "1269fab5cb381f469da0ae9daedd712f",
+    "revision": "2828aeb001680900a74127b9e604b27e",
     "url": "/index.html"
   }
 ];
