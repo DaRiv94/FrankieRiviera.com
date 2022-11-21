@@ -648,7 +648,7 @@ const inMemoryData = {
       },
       { tech: "GitHub", use: "For external repository" },
       {
-        tech: "Heroku",
+        tech: "Azure App Service",
         use: "For hosting backend APIs"
       },
       { tech: "Surge", use: "For hosting React frontend" }
