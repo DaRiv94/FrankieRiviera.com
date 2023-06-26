@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "b65e08cb9ec0ac3ee4cd",
+    "revision": "617dc2cbe85e691d1989",
     "url": "/static/css/main.9cf79597.chunk.css"
   },
   {
-    "revision": "b65e08cb9ec0ac3ee4cd",
-    "url": "/static/js/main.be91b69e.chunk.js"
+    "revision": "617dc2cbe85e691d1989",
+    "url": "/static/js/main.f6308393.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/static/media/ckad_from_cncfsite.99ab862e.png"
   },
   {
-    "revision": "a3e0ff0935f24befd1d65c11f9eba050",
-    "url": "/static/media/Square_large.a3e0ff09.jpg"
+    "revision": "d13573c8a0bd0cbee1e2999f2c75a569",
+    "url": "/static/media/ProfilePicGreySweatshirtBayPicCropped.d13573c8.jpg"
   },
   {
     "revision": "9dc4293639c7d2e0cfac7281771ce1b3",
@@ -108,7 +108,7 @@ self.__precacheManifest = [
     "url": "/static/media/CityOfDetroit.8c6a8d87.jpg"
   },
   {
-    "revision": "2828aeb001680900a74127b9e604b27e",
+    "revision": "be9a8c967261db30ba82f1a6a1792f46",
     "url": "/index.html"
   }
 ];
