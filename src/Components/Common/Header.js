@@ -10,7 +10,8 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 // import Button from 'react-bootstrap/Button';
 // import picture from 
 
-const RESUME_PDF = "/Resume_Frankie_G_Riviera_2021.pdf"
+// const RESUME_PDF = "/Resume_Frankie_G_Riviera_2021.pdf"
+const RESUME_PDF = "/Resume_Frankie_G_Riviera_2023.pdf"
 
 const Header = () => {
   return (
