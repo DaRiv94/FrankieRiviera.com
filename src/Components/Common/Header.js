@@ -49,12 +49,19 @@ const Header = () => {
               >
                 About Me
               </NavLink>
-              <NavLink
+              {/* <NavLink
                 className="btn btn-primary"
                 activeClassName="active"
                 to="/portfolio"
               >
                 Dev Portfolio
+              </NavLink> */}
+              <NavLink
+                className="btn btn-primary"
+                activeClassName="active"
+                to="/portfolio"
+              >
+                Portfolio
               </NavLink>
               <NavLink
                 className="btn btn-primary"
