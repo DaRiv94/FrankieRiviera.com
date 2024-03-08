@@ -54,7 +54,7 @@ const Header = () => {
                 activeClassName="active"
                 to="/portfolio"
               >
-                Portfolio
+                Dev Portfolio
               </NavLink>
               <NavLink
                 className="btn btn-primary"
