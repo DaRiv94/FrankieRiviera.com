@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f92ed23e.css",
-    "main.js": "/static/js/main.58316227.js",
+    "main.js": "/static/js/main.60062344.js",
     "static/media/FGR_Custom_Vision_License_Plate_Detector.gif": "/static/media/FGR_Custom_Vision_License_Plate_Detector.f8efdcda21fb9d926f1c.gif",
     "static/media/ProfilePicGreySweatshirtBayPicCropped.jpg": "/static/media/ProfilePicGreySweatshirtBayPicCropped.f05a849348f0cf05bee6.jpg",
     "static/media/CityOfDetroit.jpg": "/static/media/CityOfDetroit.05efdbec523ad4405378.jpg",
@@ -26,10 +26,10 @@
     "static/media/geolocation.png": "/static/media/geolocation.8e7eb5f3900fed7dcdc6.png",
     "index.html": "/index.html",
     "main.f92ed23e.css.map": "/static/css/main.f92ed23e.css.map",
-    "main.58316227.js.map": "/static/js/main.58316227.js.map"
+    "main.60062344.js.map": "/static/js/main.60062344.js.map"
   },
   "entrypoints": [
     "static/css/main.f92ed23e.css",
-    "static/js/main.58316227.js"
+    "static/js/main.60062344.js"
   ]
 }
