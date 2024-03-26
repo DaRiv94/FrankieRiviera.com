@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import AzureInnovationStationLogo from '../../images/AzureInnovationStation02.jfif'
+
 
 class AzureInnovationStationProjectApp extends Component {
   constructor(props) {
@@ -11,7 +13,7 @@ class AzureInnovationStationProjectApp extends Component {
   }
 
 
-  
+
 
   render() {
     //these are the defaults for these values, unless they are in props. then the values will be what are passed in
@@ -20,7 +22,7 @@ class AzureInnovationStationProjectApp extends Component {
       link = "http://frankieriviera.com/",
       // bgColor = "#e5e6e5",
       bgColor = "#dbdbdb",
-      image = "https://via.placeholder.com/300",
+      image = AzureInnovationStationLogo,
       separatePage
     } = this.props;
 
@@ -36,10 +38,13 @@ class AzureInnovationStationProjectApp extends Component {
           </a>
         </div>
         <div className="app-info col-12 col-md-6">
-          
+
           <h3>Azure Innovation Station </h3>
           <p>I am creating an Azure resource hub to empower individuals, start ups and enterprise businesses to be more successful in using the Azure Cloud.</p>
           {/* add the mailer lite contnet here */}
+
+          <div class="ml-embedded" data-form="eQJuMk"></div>
+          <p>blah blah blah I am creating an Azure resource hub to empower individuals, start ups and enterprise businesses to be more successful in using the Azure Cloud.</p>
         </div>
       </div>
     );

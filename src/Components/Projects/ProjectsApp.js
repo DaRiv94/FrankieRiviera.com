@@ -7,6 +7,7 @@ import ckad_image from '../../images/ckad_from_cncfsite.png'
 import terraform_image from '../../images/Terraform-Associate-Badge.png'
 import azure_developer_image from '../../images/azure-developer-associate-600x600.png'
 
+
 class PortfolioApp extends Component {
   constructor(props) {
     super(props);

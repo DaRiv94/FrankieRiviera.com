@@ -3,6 +3,8 @@ import PortolioApp from "../Portfolio/PortfolioApp";
 import AzureInnovationStationProjectApp from "./AzureInnovationStationProjectApp";
 // import ProjectApp from "./ProjectApp";
 import "./Project.css";
+import { Helmet } from "react-helmet";
+
 
 //this is all my in Memory Data
 import inMemoryData from "../Common/inMemoryData";
@@ -58,6 +60,21 @@ class PortfolioPage extends Component {
           </h5>
 
         </div>
+        <Helmet>
+            <script>
+              {`
+    (function (w, d, e, u, f, l, n) {
+      w[f] = w[f] || function () {
+        (w[f].q = w[f].q || [])
+        .push(arguments);
+      }, l = d.createElement(e), l.async = 1, l.src = u,
+      n = d.getElementsByTagName(e)[0], n.parentNode.insertBefore(l, n);
+    })
+      (window, document, 'script', 'https://assets.mailerlite.com/js/universal.js', 'ml');
+    ml('account', '849879');
+    `}
+            </script>
+          </Helmet>
         <AzureInnovationStationProjectApp />
         {/* <PortolioApp {...kubernetes_demo} bgColor="#dbdbdb"/> */}
         {/* <PortolioApp {...containerapps_demo} /> */}
