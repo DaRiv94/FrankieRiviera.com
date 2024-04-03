@@ -1,33 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta name="theme-color" content="#000000" />
 
-    <!--
+<head>
+  <meta charset="utf-8" />
+  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="theme-color" content="#000000" />
+
+  <!--
       Extra Metadata for showing content easily on soical medias like linkedin. Note to self to see Helpful blogs in Computer Engineering Notes
     -->
-    <meta name="title" property="og:title" content="Frankie G Riviera Portfolio Website" />
-    <meta name="description" content="Frankie G Riviera Website" />
-    <meta name="author" content="Frankie G Riviera" />
-    <meta name="description" property="og:description" content="Frankie G Riviera Website" />
-    <meta property="og:type" content="Website" />
-    <meta name="image" property="og:image" content="%PUBLIC_URL%/Square_large.jpg" />
-    
-    
+  <meta name="title" property="og:title" content="Frankie G Riviera Portfolio Website" />
+  <meta name="description" content="Frankie G Riviera Website" />
+  <meta name="author" content="Frankie G Riviera" />
+  <meta name="description" property="og:description" content="Frankie G Riviera Website" />
+  <meta property="og:type" content="Website" />
+  <meta name="image" property="og:image" content="%PUBLIC_URL%/Square_large.jpg" />
 
-    <!--
+
+
+  <!--
       manifest.json provides metadata used when your web app is added to the
       homescreen on Android. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
-    <!--
+  <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
       Only files inside the `public` folder can be referenced from the HTML.
@@ -36,27 +34,37 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+  <!-- Microsoft Clarity Snippet -->
+  <script type="text/javascript">
+    (function (c, l, a, r, i, t, y) {
+      c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
+      t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
+      y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+    })(window, document, "clarity", "script", "lqvfomg03a");
+  </script>
 
 
-    <title>Frankie Riviera Portfolio Website</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+  <title>Frankie Riviera Portfolio Website</title>
+</head>
 
-    <!-- The script below will redirect to a page on the app if a redirect path exists in session storage -->
-    <script>
-        (function(){
-          var redirect = sessionStorage.redirect;
-          delete sessionStorage.redirect;
-          if (redirect && redirect != location.href) {
-            history.replaceState(null, null, redirect);
-          }
-        })();
-      </script>
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
 
-    <div id="root"></div>
-    <!--
+  <!-- The script below will redirect to a page on the app if a redirect path exists in session storage -->
+  <script>
+    (function () {
+      var redirect = sessionStorage.redirect;
+      delete sessionStorage.redirect;
+      if (redirect && redirect != location.href) {
+        history.replaceState(null, null, redirect);
+      }
+    })();
+  </script>
+
+  <div id="root"></div>
+  <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
 
@@ -66,5 +74,6 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-  </body>
+</body>
+
 </html>
