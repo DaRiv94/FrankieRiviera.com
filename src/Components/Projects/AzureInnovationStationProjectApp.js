@@ -19,7 +19,7 @@ class AzureInnovationStationProjectApp extends Component {
     //these are the defaults for these values, unless they are in props. then the values will be what are passed in
     const {
       title = "SomeTitle",
-      link = "http://frankieriviera.com/",
+      link = "https://azureinnovationstation.com",
       // bgColor = "#e5e6e5",
       bgColor = "#dbdbdb",
       image = AzureInnovationStationLogo,
@@ -40,11 +40,10 @@ class AzureInnovationStationProjectApp extends Component {
         <div className="app-info col-12 col-md-6">
 
           <h3>Azure Innovation Station </h3>
-          <p>I am creating an Azure resource hub to empower individuals, start ups and enterprise businesses to be more successful in using the Azure Cloud.</p>
-          {/* add the mailer lite contnet here */}
-
-          <div class="ml-embedded" data-form="eQJuMk"></div>
-          <p>blah blah blah I am creating an Azure resource hub to empower individuals, start ups and enterprise businesses to be more successful in using the Azure Cloud.</p>
+          <p>While working at Microsft, I saw a need for addtional education to compliment the great work Microsoft is doing with the cloud.</p>
+          <p>I created Azure Innovation Station to to empower individuals, startups and businesses to drive innovation further then it has ever gone before using Microsoft Azure.</p>
+          <p>To learn more, check out <a target="_blank" rel="noopener noreferrer" href="https://azureinnovationstation.com">AzureInnovationStation.com</a></p>
+          <p>To get a FREE list of Azure learning resources and subscribe to the Azure Innovation Station Newsletter you can go <a target="_blank" rel="noopener noreferrer" href="https://azureinnovationstation.com/#subscribe">HERE!</a></p>
         </div>
       </div>
     );

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import PortolioApp from "../Portfolio/PortfolioApp";
 import AzureInnovationStationProjectApp from "./AzureInnovationStationProjectApp";
+import VerticalCareersProjectPage from "./VerticalCareersProjectPage";
 // import ProjectApp from "./ProjectApp";
 import "./Project.css";
 import { Helmet } from "react-helmet";
@@ -56,7 +57,7 @@ class PortfolioPage extends Component {
         <div className="container portfolioDivHead">
           <h2>Welcome to my Projects!</h2>
           <h5>
-            Here you will find a few of the projects that are active and that I am working on. If you are interested in working with me you can contact me at <a href="mailto:Frankie@FrankieRiviera.com">Frankie@FrankieRiviera.com</a>
+            Here you will find my active projects. If you are interested in working with me regarding any of the following, please reach out to me at <a href="mailto:Frankie@FrankieRiviera.com">Frankie@FrankieRiviera.com</a>
           </h5>
 
         </div>
@@ -76,6 +77,7 @@ class PortfolioPage extends Component {
             </script>
           </Helmet>
         <AzureInnovationStationProjectApp />
+        <VerticalCareersProjectPage />
         {/* <PortolioApp {...kubernetes_demo} bgColor="#dbdbdb"/> */}
         {/* <PortolioApp {...containerapps_demo} /> */}
 
