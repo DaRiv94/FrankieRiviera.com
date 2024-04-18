@@ -11,8 +11,8 @@ const HomePage = () => {
       <div className="welcome-div">
         <h1 className="welcome-banner">Welcome to FrankieRiviera.com</h1>
         <h4>
-          Thank you for visiting my online portfolio, please go to the{" "}
-          <Link to="/about">About Me</Link> page to learn more. Or to my <Link to="/portfolio">Portfolio</Link> page to see some of my work.
+          Thank you for visiting! Please go to the{" "}
+          <Link to="/about">About Me</Link> page to learn more. Check out my active <Link to="/projects">Projects</Link>. Or View my technical <Link to="/portfolio">Portfolio</Link>.
         </h4>
       </div>
     </div>

@@ -16,7 +16,26 @@ const AboutPage = () => {
         <div className="bio col-12 col-md-6">
           <h1>Hi I'm Frankie,</h1>
           <p>
-From a very young age I have been engaged in learning the subjects of Science, Technology, Engineering and Mathematics. When I was 11, I built my first electrical circuit. When I was 13, I built my first C# application. As I grew up, I continued my learning by attending Michigan State University and earning a Bachelor of Science in Computer Engineering. While in school, I learned about computers from the lowest levels of transistors and machine language, to the highest levels of server-side and client-side development. After school, I further developed my skills to enter the software technology industry as a software engineer at a local Michigan startup. After a few years that involved a company Acquisition and Covid 19 forcing the whole world to embrace remote work, I took the next step in my career by joining Microsoft in Enterprise Technical Sales. I lead discussions with leading healthcare technology executives on Digital Transformation and Application Innovation in the Microsoft Azure Cloud. I am a passionate technologist and futurist that is excited and determined to use my skills and knowledge to positively accelerate the world into the next technological revolution.
+            I am a former Microsoft FTE, and Life long learner who wants to use my skills, knowledge, background and experience to help others.
+          </p>
+          <p>
+            My passions for Jesus, People, Business, Technology and Learning have been leading me on a life long journey to generate peace joy and love for the Kingdom of God.
+          </p>
+          <p>
+            At this stage in my journey, I believe God has positioned me to use my full time energy for two projects
+
+            With my love of technology and background in technical sales and software engineering, I want to empower individuals, startups and businesses to drive innovation further then it has ever gone before using Microsoft Azure. I am currently doing this with Azure Innovation Station
+
+            My passion for people, business and learning paired with my personal career experience and research inspired me to launch Vertical Careers. An educational platform to help individuals learn, level up, and take their careers to new heights!
+          </p>
+          <p>
+            At this stage in my journey, I believe God has positioned me to use my full time energy for two projects.
+          </p>
+          <p>
+            With my love of technology and background in technical sales and software engineering, I want to empower individuals, startups and businesses to drive innovation further then it has ever gone before using Microsoft Azure. I am currently doing this with <a target="_blank" rel="noopener noreferrer" href="https://azureinnovationstation.com">Azure Innovation Station</a>.
+          </p>
+          <p>
+            My passion for people, business and learning paired with my personal career experience and research inspired me to launch <a target="_blank" rel="noopener noreferrer" href="https://VerticalCareers.com">Vertical Careers</a> . An educational platform to help individuals learn, level up, and take their careers to new heights!
           </p>
         </div>
       </div>

@@ -59,23 +59,21 @@ const Header = () => {
               <NavLink
                 className="btn btn-primary"
                 activeClassName="active"
-                to="/portfolio"
+                to="/projects"
               >
-                Portfolio
+                Projects
               </NavLink>
               <NavLink
                 className="btn btn-primary"
                 activeClassName="active"
-                to={RESUME_PDF}
-                target="_blank"
+                to="/portfolio"
               >
-                Resume
+                Dev Portfolio
               </NavLink>
 
 
               <NavDropdown title="More" id="basic-nav-dropdown">
                 <NavDropdown.Item
-                  target="_blank"
                   href="https://www.linkedin.com/in/frankie-riviera/"
                 >
                   LinkedIn
@@ -85,6 +83,12 @@ const Header = () => {
                   href="https://github.com/DaRiv94"
                 >
                   GitHub
+                </NavDropdown.Item>
+                <NavDropdown.Item
+                  href={RESUME_PDF}
+                  target="_blank"
+                >
+                  Resume
                 </NavDropdown.Item>
               </NavDropdown>
             </Nav>
