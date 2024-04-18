@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.f92ed23e.css",
-    "main.js": "/static/js/main.58316227.js",
+    "main.js": "/static/js/main.655cddad.js",
     "static/media/FGR_Custom_Vision_License_Plate_Detector.gif": "/static/media/FGR_Custom_Vision_License_Plate_Detector.f8efdcda21fb9d926f1c.gif",
     "static/media/ProfilePicGreySweatshirtBayPicCropped.jpg": "/static/media/ProfilePicGreySweatshirtBayPicCropped.f05a849348f0cf05bee6.jpg",
     "static/media/CityOfDetroit.jpg": "/static/media/CityOfDetroit.05efdbec523ad4405378.jpg",
     "static/media/OldFgrWebsite.JPG": "/static/media/OldFgrWebsite.cd44f7510c13c7d3ab00.JPG",
     "static/media/Terraform-Associate-Badge.png": "/static/media/Terraform-Associate-Badge.1b19ca0d05d1330cc0a6.png",
     "static/media/fgr_budgetapp_aca_deployment.png": "/static/media/fgr_budgetapp_aca_deployment.eb9667e49bcc303cba7c.png",
+    "static/media/AzureInnovationStation02.jfif": "/static/media/AzureInnovationStation02.ec77bc7999b989c7d8e4.jfif",
     "static/media/1000x1000_FGR_FINANCE.png": "/static/media/1000x1000_FGR_FINANCE.6c31101d958571507cf4.png",
     "static/media/Billiard_Replay_info_Diagram.png": "/static/media/Billiard_Replay_info_Diagram.4b881d44f60f68e7fb02.png",
     "static/media/fgr-secure-api-architecture_with_acr.png": "/static/media/fgr-secure-api-architecture_with_acr.71616cec4abe3f387b16.png",
@@ -21,15 +22,16 @@
     "static/media/TaskMaster.png": "/static/media/TaskMaster.80f245030ed39a9b7e4c.png",
     "static/media/0042_api_management_diagram.png": "/static/media/0042_api_management_diagram.5853d7d0d35b25397ab9.png",
     "static/media/azure-developer-associate-600x600.png": "/static/media/azure-developer-associate-600x600.c5a08122012820d62f8f.png",
+    "static/media/VerticalCareersLogoWhiteBackground.png": "/static/media/VerticalCareersLogoWhiteBackground.866263ba80d5b986d2e6.png",
     "static/media/AzureContainerAppIcon.png": "/static/media/AzureContainerAppIcon.0f7b37417bb90e80a3ec.png",
     "static/media/FGR_API_Transparent.png": "/static/media/FGR_API_Transparent.8adf6e7954458ac5b820.png",
     "static/media/geolocation.png": "/static/media/geolocation.8e7eb5f3900fed7dcdc6.png",
     "index.html": "/index.html",
     "main.f92ed23e.css.map": "/static/css/main.f92ed23e.css.map",
-    "main.58316227.js.map": "/static/js/main.58316227.js.map"
+    "main.655cddad.js.map": "/static/js/main.655cddad.js.map"
   },
   "entrypoints": [
     "static/css/main.f92ed23e.css",
-    "static/js/main.58316227.js"
+    "static/js/main.655cddad.js"
   ]
 }
