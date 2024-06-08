@@ -88,7 +88,7 @@ const Header = () => {
                   href={RESUME_PDF}
                   target="_blank"
                 >
-                  Resume
+                  My Old Resume
                 </NavDropdown.Item>
               </NavDropdown>
             </Nav>
