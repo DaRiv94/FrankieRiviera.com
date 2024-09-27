@@ -22,13 +22,17 @@ const AboutPage = () => {
             My passions for Jesus, People, Business, Technology and Learning have been leading me on a life long journey to generate peace joy and love for the Kingdom of God.
           </p>
           <p>
-            At this stage in my journey, I believe God has positioned me to use my full time energy for two projects.
+            At this stage in my journey, I believe God has positioned me to use my full time energy to make intelligent application and innovation in Microsoft Azure simple and easy to understand for new and advanced cloud professionals.
+ 
           </p>
-          <p>
+          {/* <p>
             With my love of technology and background in technical sales and software engineering, I want to empower individuals, startups and businesses to drive innovation further then it has ever gone before using Microsoft Azure. I am currently doing this with <a target="_blank" rel="noopener noreferrer" href="https://azureinnovationstation.com">Azure Innovation Station</a>.
           </p>
           <p>
             My passion for people, business and learning paired with my personal career experience and research inspired me to launch <a target="_blank" rel="noopener noreferrer" href="https://VerticalCareers.com">Vertical Careers</a> . An educational platform to help individuals learn, level up, and take their careers to new heights!
+          </p> */}
+          <p>
+          With my love of people, business, technology paired with my background in technical sales and software engineering, I want to empower individuals, startups and businesses to drive innovation further than it has ever gone before using Microsoft Azure. I am currently doing this with <a target="_blank" rel="noopener noreferrer" href="https://azureinnovationstation.com">Azure Innovation Station</a>
           </p>
         </div>
       </div>

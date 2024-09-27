@@ -41,7 +41,7 @@ class AzureInnovationStationProjectApp extends Component {
 
           <h3>Azure Innovation Station </h3>
           <p>While working at Microsft, I saw a need for addtional education to compliment the great work Microsoft is doing with the cloud.</p>
-          <p>I created Azure Innovation Station to to empower individuals, startups and businesses to drive innovation further then it has ever gone before using Microsoft Azure.</p>
+          <p>I created Azure Innovation Station to to empower individuals, startups and businesses to drive innovation further than it has ever gone before using Microsoft Azure.</p>
           <p>To learn more, check out <a target="_blank" rel="noopener noreferrer" href="https://azureinnovationstation.com">AzureInnovationStation.com</a></p>
           <p>To get a FREE list of Azure learning resources and subscribe to the Azure Innovation Station Newsletter you can go <a target="_blank" rel="noopener noreferrer" href="https://azureinnovationstation.com/#subscribe">HERE!</a></p>
         </div>

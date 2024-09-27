@@ -77,7 +77,7 @@ class PortfolioPage extends Component {
             </script>
           </Helmet>
         <AzureInnovationStationProjectApp />
-        <VerticalCareersProjectPage />
+        {/*<VerticalCareersProjectPage />*/}
         {/* <PortolioApp {...kubernetes_demo} bgColor="#dbdbdb"/> */}
         {/* <PortolioApp {...containerapps_demo} /> */}
 
