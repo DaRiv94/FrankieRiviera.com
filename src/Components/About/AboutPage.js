@@ -16,13 +16,13 @@ const AboutPage = () => {
         <div className="bio col-12 col-md-6">
           <h1>Hi I'm Frankie,</h1>
           <p>
-            I am a former Microsoft FTE, and Life long learner who wants to use my skills, knowledge, background and experience to help others.
+            I am a <a href="https://mvp.microsoft.com/en-US/mvp/profile/155125b2-3318-45a4-8008-bff246c0fbc3">Microsoft MVP</a>, former Microsoft FTE, and Life long learner who wants to use my skills, knowledge, background and experience to help others.
           </p>
           <p>
             My passions for Jesus, People, Business, Technology and Learning have been leading me on a life long journey to generate peace joy and love for the Kingdom of God.
           </p>
           <p>
-            At this stage in my journey, I believe God has positioned me to use my full time energy to make intelligent application and innovation in Microsoft Azure simple and easy to understand for new and advanced cloud professionals.
+            At this stage in my journey, I believe God has positioned me to use my full time energy to make intelligent application and innovation in Microsoft Azure simple and easy to understand for new and advanced technology professionals.
  
           </p>
           {/* <p>
