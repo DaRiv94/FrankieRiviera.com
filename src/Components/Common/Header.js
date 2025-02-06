@@ -84,12 +84,12 @@ const Header = () => {
                 >
                   GitHub
                 </NavDropdown.Item>
-                <NavDropdown.Item
+                {/* <NavDropdown.Item
                   href={RESUME_PDF}
                   target="_blank"
                 >
                   My Old Resume
-                </NavDropdown.Item>
+                </NavDropdown.Item> */}
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>
