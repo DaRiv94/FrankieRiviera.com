@@ -127,7 +127,7 @@ class PortfolioPage extends Component {
         {/* <PortolioApp {...api_management}  /> */}
         <PortolioApp {...billiard_replay}  bgColor="#dbdbdb"/>
         <PortolioApp {...fgr_dynamic_auth_service} />
-        <PortolioApp {...computerVisionApiExample}  bgColor="#dbdbdb"/>
+        {/* <PortolioApp {...computerVisionApiExample}  bgColor="#dbdbdb"/> */}
         {/* <PortolioApp
           // title={gighub.title}
           // description={gighub.description}
