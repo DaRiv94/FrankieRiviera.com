@@ -86,10 +86,10 @@ class PortfolioPage extends Component {
               <a href={"#" + fgr_dynamic_auth_service.title}>{fgr_dynamic_auth_service.title}</a> -{" "}
               {fgr_dynamic_auth_service.shortDescription}
             </li>
-            <li>
+            {/* <li>
               <a href={"#" + computerVisionApiExample.title}>{computerVisionApiExample.title}</a> -{" "}
               {computerVisionApiExample.shortDescription}
-            </li>
+            </li> */}
             {/* <li>
               <a href={"#" + gighub.title}>{gighub.title}</a> -{" "}
               {gighub.shortDescription}
@@ -127,7 +127,7 @@ class PortfolioPage extends Component {
         {/* <PortolioApp {...api_management}  /> */}
         <PortolioApp {...billiard_replay}  bgColor="#dbdbdb"/>
         <PortolioApp {...fgr_dynamic_auth_service} />
-        <PortolioApp {...computerVisionApiExample}  bgColor="#dbdbdb"/>
+        {/* <PortolioApp {...computerVisionApiExample}  bgColor="#dbdbdb"/> */}
         {/* <PortolioApp
           // title={gighub.title}
           // description={gighub.description}
