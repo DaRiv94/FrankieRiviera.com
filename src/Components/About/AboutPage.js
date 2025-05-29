@@ -31,8 +31,11 @@ const AboutPage = () => {
           <p>
             My passion for people, business and learning paired with my personal career experience and research inspired me to launch <a target="_blank" rel="noopener noreferrer" href="https://VerticalCareers.com">Vertical Careers</a> . An educational platform to help individuals learn, level up, and take their careers to new heights!
           </p> */}
-          <p>
+          {/* <p>
           With my love of people, business, technology paired with my background in technical sales and software engineering, I want to empower individuals, startups and businesses to drive innovation further than it has ever gone before using Microsoft Azure. I am currently doing this with <a target="_blank" rel="noopener noreferrer" href="https://azureinnovationstation.com">Azure Innovation Station</a>
+          </p> */}
+          <p>
+          With my love of people, business, technology paired with my background in technical sales and software engineering, I want to help new and experienced technology professionals earn more and land dream jobs using Microsoft Azure. I am currently doing this with my <a target="_blank" rel="noopener noreferrer" href="https://www.skool.com/microsoft-azure/about?ref=9e4d4ca563414105a3799fbf7610cae7">Azure Innovation Station Online Community</a>
           </p>
         </div>
       </div>

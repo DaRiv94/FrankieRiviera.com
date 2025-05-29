@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import PortolioApp from "../Portfolio/PortfolioApp";
 import AzureInnovationStationProjectApp from "./AzureInnovationStationProjectApp";
+import AzureInnovationStationYouTubeProject from "./AzureInnovationStationYouTubeProject";
+import AzureInnovationStationCommunityProject from "./AzureInnovationStationCommunityProject";
 import VerticalCareersProjectPage from "./VerticalCareersProjectPage";
 // import ProjectApp from "./ProjectApp";
 import "./Project.css";
@@ -76,7 +78,8 @@ class PortfolioPage extends Component {
     `}
             </script>
           </Helmet>
-        <AzureInnovationStationProjectApp />
+        <AzureInnovationStationCommunityProject />
+        <AzureInnovationStationYouTubeProject bgColor="#e5e6e5" />
         {/*<VerticalCareersProjectPage />*/}
         {/* <PortolioApp {...kubernetes_demo} bgColor="#dbdbdb"/> */}
         {/* <PortolioApp {...containerapps_demo} /> */}
