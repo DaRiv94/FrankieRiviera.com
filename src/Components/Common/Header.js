@@ -84,6 +84,12 @@ const Header = () => {
                 >
                   GitHub
                 </NavDropdown.Item>
+                <NavDropdown.Item
+                  
+                  href="/projects/equipment"
+                >
+                  My Equipment
+                </NavDropdown.Item>
                 {/* <NavDropdown.Item
                   href={RESUME_PDF}
                   target="_blank"

@@ -8,6 +8,7 @@ import HomePage from "./Components/Home/HomePage";
 import AboutPage from "./Components/About/AboutPage";
 import PortfolioPage from './Components/Portfolio/PortfolioPage';
 import ProjectsPage from './Components/Projects/ProjectsPage';
+import EquipmentPage from './Components/Projects/EquipmentPage';
 import KubernetesDemoPage from './Components/Portfolio/SubPage/KubernetesDemoPage';
 import ContainerAppsDemoPage from './Components/Portfolio/SubPage/ContainerAppsDemoPage';
 import FGRSecureAPIDemoPage from './Components/Portfolio/SubPage/FGRSecureAPIDemoPage';
@@ -34,6 +35,7 @@ class App extends Component {
             <Route exact path="/" component={HomePage} />
           <Route exact path="/about" component={AboutPage} />
           <Route exact path="/projects" component={ProjectsPage} />
+          <Route exact path="/projects/equipment" component={EquipmentPage} />
           <Route exact path="/portfolio" component={PortfolioPage} />
           <Route exact path="/portfolio/kubernetes-demo" component={KubernetesDemoPage} />
           <Route exact path="/portfolio/azure-container-apps-deployment" component={ContainerAppsDemoPage} />
