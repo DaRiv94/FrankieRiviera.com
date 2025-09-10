@@ -18,10 +18,6 @@ class EquipmentPage extends Component {
   }
 
   render() {
-    const {
-      gighub,
-
-    } = this.state;
     return (
       <div className="portfolio-page-main-div container-fluid">
         <div className="container equipmentDivHead">

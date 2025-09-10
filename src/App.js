@@ -18,6 +18,7 @@ import APIManagementDemoPage from './Components/Portfolio/SubPage/APIManagementD
 import NotFound from "./Components/Common/NotFound";
 import PrivacyPolicy from "./Components/Common/PrivacyPolicy";
 import DeviceRecommendations from "./Components/Common/DeviceRecommendations";
+import Tools from "./Components/Common/Tools";
 
 
 
@@ -32,7 +33,7 @@ class App extends Component {
           </div>
 
           <Switch>
-            <Route exact path="/" component={HomePage} />
+          <Route exact path="/" component={HomePage} />
           <Route exact path="/about" component={AboutPage} />
           <Route exact path="/projects" component={ProjectsPage} />
           <Route exact path="/projects/equipment" component={EquipmentPage} />
@@ -47,6 +48,7 @@ class App extends Component {
           
           <Route exact path="/privacypolicy" component={PrivacyPolicy} />
           <Route exact path="/devicerecommendations" component={DeviceRecommendations} />
+          <Route exact path="/tools" component={Tools} />
           
           <Route component={NotFound} />
           </Switch>
