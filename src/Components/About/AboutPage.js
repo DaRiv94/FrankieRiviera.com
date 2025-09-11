@@ -22,7 +22,7 @@ const AboutPage = () => {
             My passions for Jesus, People, Business, Technology and Learning have been leading me on a life long journey to generate peace joy and love for the Kingdom of God.
           </p>
           <p>
-            At this stage in my journey, I believe God has positioned me to use my full time energy to make intelligent application and innovation in Microsoft Azure simple and easy to understand for new and advanced technology professionals.
+            At this stage in my journey, I believe God has positioned me to use my full time energy to build a meaningful business that will support my family in the short term and the kingdom of God in the long term.
  
           </p>
           {/* <p>
@@ -35,7 +35,11 @@ const AboutPage = () => {
           With my love of people, business, technology paired with my background in technical sales and software engineering, I want to empower individuals, startups and businesses to drive innovation further than it has ever gone before using Microsoft Azure. I am currently doing this with <a target="_blank" rel="noopener noreferrer" href="https://azureinnovationstation.com">Azure Innovation Station</a>
           </p> */}
           <p>
-          With my love of people, business, technology paired with my background in technical sales and software engineering, I want to help new and experienced technology professionals earn more and land dream jobs using Microsoft Azure. I am currently doing this with my <a target="_blank" rel="noopener noreferrer" href="https://www.skool.com/microsoft-azure/about?ref=9e4d4ca563414105a3799fbf7610cae7">Azure Innovation Station Online Community</a>
+          With my love of people, business, and technology paired with my background in technical sales and software engineering, I started Azure Innovation Station.
+          </p>
+          <p>
+          An online education business to help professionals and businesses solve problems with Azure. To learn more about Azure Innovation Station see <a href="/projects"> my projects page</a>.
+
           </p>
         </div>
       </div>

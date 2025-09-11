@@ -57,10 +57,14 @@ class PortfolioPage extends Component {
     return (
       <div className="portfolio-page-main-div container-fluid">
         <div className="container portfolioDivHead">
-          <h2>Welcome to my Projects!</h2>
+          <h2>Welcome to my Projects Page!</h2>
+          <h5>
+            Here you will find my active projects. I am currently focused full time on Azure Innovation Station. If you want custom Azure Training or consulting, please reach out to me at <a href="mailto:Frankie@FrankieRiviera.com">Frankie@FrankieRiviera.com</a>
+          </h5>
+          {/* <h2>Welcome to my Projects!</h2>
           <h5>
             Here you will find my active projects. If you are interested in working with me regarding any of the following, please reach out to me at <a href="mailto:Frankie@FrankieRiviera.com">Frankie@FrankieRiviera.com</a>
-          </h5>
+          </h5> */}
 
         </div>
         <Helmet>
@@ -78,8 +82,9 @@ class PortfolioPage extends Component {
     `}
             </script>
           </Helmet>
-        <AzureInnovationStationCommunityProject />
-        <AzureInnovationStationYouTubeProject bgColor="#e5e6e5" />
+          <AzureInnovationStationProjectApp />
+        {/* <AzureInnovationStationCommunityProject /> */}
+        {/* <AzureInnovationStationYouTubeProject bgColor="#e5e6e5" /> */}
         {/*<VerticalCareersProjectPage />*/}
         {/* <PortolioApp {...kubernetes_demo} bgColor="#dbdbdb"/> */}
         {/* <PortolioApp {...containerapps_demo} /> */}

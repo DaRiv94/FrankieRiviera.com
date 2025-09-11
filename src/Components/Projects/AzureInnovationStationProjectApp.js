@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import AzureInnovationStationLogo from '../../images/AzureInnovationStation02.jfif'
+// import AzureInnovationStationLogo from '../../images/AzureInnovationStation02.jfif'
+import SkoolLandingPageImage from '../../images/SkoolLandingPageImage.png'
 
 
 class AzureInnovationStationProjectApp extends Component {
@@ -19,10 +20,10 @@ class AzureInnovationStationProjectApp extends Component {
     //these are the defaults for these values, unless they are in props. then the values will be what are passed in
     const {
       title = "SomeTitle",
-      link = "https://azureinnovationstation.com",
+      link = "https://azureinnovationstation.com/community",
       // bgColor = "#e5e6e5",
       bgColor = "#dbdbdb",
-      image = AzureInnovationStationLogo,
+      image = SkoolLandingPageImage,
       separatePage
     } = this.props;
 
@@ -40,10 +41,12 @@ class AzureInnovationStationProjectApp extends Component {
         <div className="app-info col-12 col-md-6">
 
           <h3>Azure Innovation Station </h3>
-          <p>While working at Microsft, I saw a need for addtional education to compliment the great work Microsoft is doing with the cloud.</p>
-          <p>I created Azure Innovation Station to to empower individuals, startups and businesses to drive innovation further than it has ever gone before using Microsoft Azure.</p>
-          <p>To learn more, check out <a target="_blank" rel="noopener noreferrer" href="https://azureinnovationstation.com">AzureInnovationStation.com</a></p>
-          <p>To get a FREE list of Azure learning resources and subscribe to the Azure Innovation Station Newsletter you can go <a target="_blank" rel="noopener noreferrer" href="https://azureinnovationstation.com/#subscribe">HERE!</a></p>
+          <p>While working at Microsft, I saw a need for addtional education to compliment the great work Microsoft is doing with the Azure cloud.</p>
+          <p>I created Azure Innovation Station to help businesses and individuals solve problems using Microsoft Azure.</p>
+          <p>How?</p>
+          <p>✅ I publish videos free on <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@AzureInnovationStation">YouTube</a></p>
+          <p>✅ I manage a Free <a target="_blank" rel="noopener noreferrer" href="https://azureinnovationstation.com/community"> Online Microsoft Azure Community </a></p>
+          <p>✅ I do custom Azure Training and consulting for businesses and individuals</p>
         </div>
       </div>
     );
